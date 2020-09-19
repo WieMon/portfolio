@@ -1,0 +1,139 @@
+@import '../global.scss';
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+
+  color: $color-one;
+  background-color: $color-two;
+}
+
+/*Name and title*/
+.header__name-div {
+  padding: 15px 15px 15px 25px;
+  @include sm {
+    padding: 15px 10px 15px 15px;
+  }
+  @include xs {
+    padding: 15px 10px;
+  }
+}
+
+.header__name {
+  margin: 0;
+  text-align: center;
+  font-family: $font-one;
+  @include lg {
+    font-weight: 700;
+    font-size: 28px;
+    color: purple;
+  }
+  @include sm {
+    font-weight: 700;
+    font-size: 26px;
+    color: red;
+  }
+    @include xs {
+    font-weight: 700;
+    font-size: 22px;
+    color: blue;
+  }
+}
+
+.header__title {
+  margin: 0;
+  text-align: center;
+  font-family: $font-one;
+  @include lg {
+    font-size: 20px;
+    color: orange;
+  }
+  @include sm {
+    font-size: 18px;
+    color: yellow;
+  }
+  @include xs {
+    font-size: 15px;
+    color: green;
+  }
+}
+
+/*Hamburger*/
+.header__hamburger-col {
+ position: relative;
+}
+
+.header__hamburger-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__hamburger {
+  font-size: 45px;
+  @include sm {
+    font-size: 35px;
+  }
+}
+
+/*Links to pages*/
+.header__list {
+  @include list-big;
+  padding: 15px;
+  @include md {
+   @include header-list-small;
+  }
+  @include sm {
+    @include list-big;
+    @include header-list-small;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.header__item {
+  flex-grow: 1;
+  padding: 15px 25px;
+  text-align: center;
+  @include lg {
+    padding: 15px 0;
+  }
+  @include sm {
+    padding: 10px;
+    text-align: right;
+    &:hover {
+      background-color: lighten($color-two, 25%);
+      border-right: 4px solid red;
+      transition: 0.4s;
+    }
+  }
+}
+
+.header__link {
+  color: $color-one;
+  padding: 15px 15px;
+  text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+      color: red;
+      background-color: lighten($color-two, 15%);
+      box-shadow: 0 0 5px red;
+    }
+  @include sm {
+    padding-right: 20px;
+    &:hover {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+}
+
+
+

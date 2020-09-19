@@ -1,0 +1,43 @@
+/*Grid*/
+@mixin xs {
+  @media(max-width: 360px) {
+    @content
+  }
+};
+
+@mixin sm {
+  @media (max-width: 600px) {
+    @content
+  }
+};
+
+@mixin md {
+  @media(max-width: 768px) {
+    @content
+  }
+};
+
+@mixin lg {
+  @media(max-width: 992px) {
+    @content
+  }
+};
+
+@mixin xl {
+  @media(min-width: 993px) {
+    @content
+  }
+};
+
+@mixin list-big {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+@mixin header-list-small {
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
