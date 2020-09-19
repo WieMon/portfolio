@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-//import '../styles/pages/Portfolio.scss';
+import '../styles/pages/Portfolio.scss';
 
 const Portfolio = () => {
   return (
