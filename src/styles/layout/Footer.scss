@@ -1,0 +1,32 @@
+@import '../global.scss';
+
+.footer {
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: grey;
+}
+
+.footer__list {
+  @include list-big;
+  justify-content: center;
+}
+
+.footer__item {
+  padding: 20px 25px;
+}
+
+.footer__icon {
+  font-size: 35px;
+  color: darken($color-two, 25%);
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+  }
+  &:active {
+    color: red;
+  }
+
+}
