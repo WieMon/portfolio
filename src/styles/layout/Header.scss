@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .header {
-  height: 100px;
+  //height: 100px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -9,19 +9,18 @@
   right: 0;
   left: 0;
   z-index: 1;
-
   color: $color-one;
   background-color: $color-two;
 }
 
 /*Name and title*/
 .header__name-div {
-  padding: 15px 15px 15px 25px;
-  @include sm {
+  padding: 15px 10px;
+  @include md {
     padding: 15px 10px 15px 15px;
   }
-  @include xs {
-    padding: 15px 10px;
+  @include lg {
+    padding: 15px 15px 15px 25px;
   }
 }
 
@@ -29,20 +28,18 @@
   margin: 0;
   text-align: center;
   font-family: $font-one;
-  @include lg {
-    font-weight: 700;
-    font-size: 28px;
-    color: purple;
+  font-weight: 700;
+  @include xs {
+    font-size: 22px;
+    color: blue;
   }
   @include sm {
-    font-weight: 700;
     font-size: 26px;
     color: red;
   }
-    @include xs {
-    font-weight: 700;
-    font-size: 22px;
-    color: blue;
+  @include lg {
+    font-size: 28px;
+    color: purple;
   }
 }
 
@@ -50,17 +47,17 @@
   margin: 0;
   text-align: center;
   font-family: $font-one;
-  @include lg {
-    font-size: 20px;
-    color: orange;
-  }
-  @include sm {
-    font-size: 18px;
-    color: yellow;
-  }
   @include xs {
     font-size: 15px;
     color: green;
+  }
+   @include sm {
+    font-size: 18px;
+    color: yellow;
+  }
+    @include lg {
+    font-size: 20px;
+    color: orange;
   }
 }
 
@@ -77,60 +74,66 @@
 }
 
 .header__hamburger {
-  font-size: 45px;
+  font-size: 35px;
   @include sm {
-    font-size: 35px;
+    font-size: 45px;
   }
 }
 
 /*Links to pages*/
 .header__list {
-  @include list-big;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.7);
   @include md {
-   @include header-list-small;
-  }
-  @include sm {
-    @include list-big;
-    @include header-list-small;
-    flex-direction: column;
-    padding: 0;
+    flex-direction: row;
+    padding: 15px;
   }
 }
 
 .header__item {
-  flex-grow: 1;
-  padding: 15px 25px;
-  text-align: center;
-  @include lg {
-    padding: 15px 0;
-  }
-  @include sm {
-    padding: 10px;
-    text-align: right;
+  padding: 10px;
+  text-align: right;
     &:hover {
       background-color: lighten($color-two, 25%);
       border-right: 4px solid red;
       transition: 0.4s;
+    }
+  @include md {
+    flex-grow: 1;
+    padding: 15px 15px;
+    text-align: center;
+    &:hover {
+      background-color: transparent;
+      border: none;
+      transition: none;
     }
   }
 }
 
 .header__link {
   color: $color-one;
-  padding: 15px 15px;
   text-transform: uppercase;
+  padding-right: 20px;
+  &:hover {
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  @include md  {
+    padding: 15px 15px;
+    text-transform: uppercase;
     &:hover {
       text-decoration: none;
       color: red;
       background-color: lighten($color-two, 15%);
       box-shadow: 0 0 5px red;
-    }
-  @include sm {
-    padding-right: 20px;
-    &:hover {
-      background-color: transparent;
-      box-shadow: none;
     }
   }
 }

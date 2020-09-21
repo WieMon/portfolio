@@ -10,8 +10,10 @@
 }
 
 .footer__list {
-  @include list-big;
+  display: flex;
+  list-style-type: none;
   justify-content: center;
+  margin: 0;
 }
 
 .footer__item {
@@ -28,5 +30,4 @@
   &:active {
     color: red;
   }
-
 }
