@@ -35,13 +35,10 @@ img {
 .about__text-skills-span {
   position: absolute;
   top: -12px;
-  right: -8px;
+  right: -4px;
   font-family: $font-one;
   font-size: 20px;
   font-weight: 700;
-  @include md {
-    left: 0;
-  }
 }
 
 .about__skills {
