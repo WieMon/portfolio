@@ -16,10 +16,10 @@
 /*Name and title*/
 .header__name-div {
   padding: 15px 10px;
-  @include md {
+  @include medium {
     padding: 15px 10px 15px 15px;
   }
-  @include lg {
+  @include large {
     padding: 15px 15px 15px 25px;
   }
 }
@@ -29,15 +29,15 @@
   text-align: center;
   font-family: $font-one;
   font-weight: 700;
-  @include xs {
+  @include extrasmall {
     font-size: 22px;
     color: blue;
   }
-  @include sm {
+  @include small {
     font-size: 26px;
     color: red;
   }
-  @include lg {
+  @include large {
     font-size: 28px;
     color: purple;
   }
@@ -47,15 +47,15 @@
   margin: 0;
   text-align: center;
   font-family: $font-one;
-  @include xs {
+  @include extrasmall {
     font-size: 15px;
     color: green;
   }
-   @include sm {
+   @include small {
     font-size: 18px;
     color: yellow;
   }
-    @include lg {
+    @include large {
     font-size: 20px;
     color: orange;
   }
@@ -75,7 +75,7 @@
 
 .header__hamburger {
   font-size: 35px;
-  @include sm {
+  @include small {
     font-size: 45px;
   }
 }
@@ -90,7 +90,7 @@
   padding: 0;
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.7);
-  @include md {
+  @include medium {
     flex-direction: row;
     padding: 15px;
   }
@@ -104,7 +104,7 @@
       border-right: 4px solid red;
       transition: 0.4s;
     }
-  @include md {
+  @include medium {
     flex-grow: 1;
     padding: 15px 15px;
     text-align: center;
@@ -126,7 +126,7 @@
     background-color: transparent;
     box-shadow: none;
   }
-  @include md  {
+  @include medium  {
     padding: 15px 15px;
     text-transform: uppercase;
     &:hover {

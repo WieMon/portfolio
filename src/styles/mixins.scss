@@ -1,60 +1,30 @@
 /*Grid*/
-// @mixin xs {
-//   @media(max-width: 360px) {
-//     @content
-//   }
-// };
-
-// @mixin sm {
-//   @media (max-width: 600px) {
-//     @content
-//   }
-// };
-
-// @mixin md {
-//   @media(max-width: 768px) {
-//     @content
-//   }
-// };
-
-// @mixin lg {
-//   @media(max-width: 992px) {
-//     @content
-//   }
-// };
-
-// @mixin xl {
-//   @media(min-width: 993px) {
-//     @content
-//   }
-// };
-
-@mixin xs {
+@mixin extrasmall {
   @media(max-width: 360px) {
     @content
   }
 };
 
-@mixin sm {
+@mixin small {
   @media (min-width: 361px) {
     @content
   }
 };
 
-@mixin md {
+@mixin medium {
   @media(min-width: 600px) {
     @content
   }
 };
 
-@mixin lg {
-  @media(min-width: 768px) {
+@mixin large {
+  @media (min-width: 768px) {
     @content
   }
 };
 
-@mixin xl {
-  @media(min-width: 992px) {
+@mixin extralarge {
+  @media (min-width: 992px) {
     @content
   }
 };

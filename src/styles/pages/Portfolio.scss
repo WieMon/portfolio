@@ -1,23 +1,24 @@
 @import '../global.scss';
-
+.portfolio {
+ 
+}
 .portfolio__wrapper {
   display: flex;
+  overflow: hidden;//
+  flex-direction: column;
   padding: 20px;
   margin: 20px 15px;
-  //position: relative;
+  position: relative;//
   background-color: yellow;
      &:hover {
-    transform: scale(1.1); //left ones - goe under right ones
+    transform: scale(1.1);
     transition: all 0.5s;
-    background-color: lighten(yellow, 30%);
-
+    background-color: lighten(yellow, 40%);
   }
 }
 
 .portfolio__img-div {
-  //position: absolute;
-  width: 50%;
-  height: 100%;
+
 }
 
 .portfolio__img {
@@ -33,4 +34,9 @@
   border-radius: 50%;
   background-color: grey;
   display: inline-block;
+}
+
+.portfolio-description-div {
+  background-color: red;
+
 }

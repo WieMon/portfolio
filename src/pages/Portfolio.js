@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
+import todolist from '../images/todolist.png';
+import rps from '../images/rps.png';
 
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <Container>
+      <Container >
         <Row>
           <Col sm={12} md={6} className='p-0'>
             <div className='portfolio__wrapper'>
@@ -75,11 +77,11 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='p-0'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
-                <img src='' alt='' className='portfolio__img'></img>
+                <img src={todolist} alt='To-Do List' className='portfolio__img'></img>
               </div>
               <div className='portfolio-description-div'>
                 <h5 className='portfolio__description'>
-                  To-do list
+                  To-Do list
                 </h5>
                 <p>
                   Tech stack: React <span className='portfolio__dot'></span> CRA <span className='portfolio__dot'></span> HTML <span className='portfolio__dot'></span> Sass/SCSS <span className='portfolio__dot'></span> ESLint <span className='portfolio__dot'></span> EditorConfig <span className='portfolio__dot'></span> Yarn
@@ -106,7 +108,7 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='p-0'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
-                <img src='' alt='' className='portfolio__img'></img>
+                <img src={rps} alt='Rock, paper, scissors' className='portfolio__img'></img>
               </div>
               <div className='portfolio-description-div'>
                 <h5 className='portfolio__description'>
