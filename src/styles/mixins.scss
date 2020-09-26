@@ -1,31 +1,37 @@
 /*Grid*/
-@mixin extrasmall {
+@mixin mobileportrait {
   @media(max-width: 360px) {
     @content
   }
 };
 
-@mixin small {
+@mixin mobilelandscape {
   @media (min-width: 361px) {
     @content
   }
 };
 
-@mixin medium {
+@mixin tabletportrait {
   @media(min-width: 600px) {
     @content
   }
 };
 
-@mixin large {
+@mixin tabletlandscape {
   @media (min-width: 768px) {
     @content
   }
 };
 
-@mixin extralarge {
+@mixin laptop {
   @media (min-width: 992px) {
     @content
   }
 };
 
+
+@mixin desktop {
+  @media (min-width: 1600px) {
+    @content
+  }
+};

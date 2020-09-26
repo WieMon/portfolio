@@ -48,8 +48,8 @@ img {
   margin: 0;
   padding: 15px 5px;
   text-align: left;
-  @include medium {
-    text-align: center;
+  @include tabletportrait {
+    //text-align: center;
   }
 }
 

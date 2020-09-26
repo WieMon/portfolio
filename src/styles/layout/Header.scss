@@ -1,7 +1,6 @@
 @import '../global.scss';
 
 .header {
-  //height: 100px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -16,11 +15,14 @@
 /*Name and title*/
 .header__name-div {
   padding: 15px 10px;
-  @include medium {
+  @include tabletportrait{
     padding: 15px 10px 15px 15px;
   }
-  @include large {
+  @include tabletlandscape {
     padding: 15px 15px 15px 25px;
+  }
+  @include desktop {
+    padding-left: 150px;
   }
 }
 
@@ -29,17 +31,23 @@
   text-align: center;
   font-family: $font-one;
   font-weight: 700;
-  @include extrasmall {
+  @include mobileportrait {
     font-size: 22px;
     color: blue;
   }
-  @include small {
+  @include mobilelandscape {
     font-size: 26px;
     color: red;
   }
-  @include large {
-    font-size: 28px;
+  @include tabletlandscape {
+    font-size: 30px;
     color: purple;
+  }
+  @include laptop {
+    font-size: 32px;
+  }
+  @include desktop {
+    font-size: 36px;
   }
 }
 
@@ -47,23 +55,26 @@
   margin: 0;
   text-align: center;
   font-family: $font-one;
-  @include extrasmall {
+  @include mobileportrait {
     font-size: 15px;
     color: green;
   }
-   @include small {
+  @include mobilelandscape {
     font-size: 18px;
     color: yellow;
   }
-    @include large {
+  @include tabletlandscape {
     font-size: 20px;
     color: orange;
+  }
+  @include desktop {
+    font-size: 22px;
   }
 }
 
 /*Hamburger*/
 .header__hamburger-col {
- position: relative;
+  position: relative;
 }
 
 .header__hamburger-div {
@@ -75,7 +86,7 @@
 
 .header__hamburger {
   font-size: 35px;
-  @include small {
+  @include mobilelandscape {
     font-size: 45px;
   }
 }
@@ -90,9 +101,15 @@
   padding: 0;
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.7);
-  @include medium {
+  @include tabletportrait {
     flex-direction: row;
-    padding: 15px;
+    padding: 18px;
+  }
+  @include laptop {
+    background-color: transparent;
+  }
+  @include desktop {
+    padding: 20px 180px 20px 0;
   }
 }
 
@@ -104,7 +121,7 @@
       border-right: 4px solid red;
       transition: 0.4s;
     }
-  @include medium {
+  @include tabletportrait {
     flex-grow: 1;
     padding: 15px 15px;
     text-align: center;
@@ -126,7 +143,7 @@
     background-color: transparent;
     box-shadow: none;
   }
-  @include medium  {
+  @include tabletportrait {
     padding: 15px 15px;
     text-transform: uppercase;
     &:hover {
@@ -135,6 +152,12 @@
       background-color: lighten($color-two, 15%);
       box-shadow: 0 0 5px red;
     }
+  }
+  @include laptop {
+    font-size: 18px;
+  }
+  @include desktop {
+    font-size: 20px;
   }
 }
 
