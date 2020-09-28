@@ -110,7 +110,7 @@ const About = () => {
           </Col>
           <Col sm={12} md={4} className='p-4 about__skills-col'>
             <img src={corel} alt='Corel logo' className='about__icon' />
-            <span className='about__icon-span'>CorelDRAW</span>
+            <span className='about__icon-span'>CorelDRAW, Inkscape</span>
           </Col>
         </Row>
       </Container>
