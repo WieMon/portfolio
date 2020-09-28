@@ -7,6 +7,7 @@
   display: flex;
  // overflow: hidden;//
   flex-direction: column;
+  text-align: center;
   //padding: 30px;
   margin: 20px 35px;
   //background-color: blue;
@@ -16,16 +17,15 @@
     //background-color: lighten(yellow, 40%);
   }
    @include laptop {
-    padding: 40px;
+    padding: 35px;
     //margin: 20px 35px;
     //background-color: yellow;
   }
   @include desktop {
-    padding: 30px;
+    padding: 25px;
     //margin: 20px 35px;
-    background-color: green;
+    background-color: grey;
   }
-
 }
 
 .portfolio__img-div {
@@ -49,15 +49,22 @@
   // }
 }
 
-.portfolio__dot {
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  background-color: grey;
-  display: inline-block;
+.portfolio__description-div {
+  //background-color: red;
+  padding: 10px;
 }
 
-.portfolio__description-div {
-  background-color: red;
-  padding: 10px;
+.portfolio__tech {
+  font-weight: 700;
+}
+
+.portfolio__link {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  color: red;
+  &:hover {
+    text-decoration: none;
+    color: red;
+    background-color: lighten($color-two, 30%);
+  }
 }

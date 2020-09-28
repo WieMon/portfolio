@@ -16,11 +16,11 @@ const Portfolio = () => {
                 <img src='' alt='' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
-                <h5 className='portfolio__description'>
+                <h5 className='portfolio__title'>
                   Portfolio
                 </h5>
                 <p>
-                  Tech stack: React <span className='portfolio__dot'></span> React Router <span className='portfolio__dot'></span> React Bootstrap <span className='portfolio__dot'></span> CRA <span className='portfolio__dot'></span> HTML <span className='portfolio__dot'></span> Sass/SCSS <span className='portfolio__dot'></span> ESLint <span className='portfolio__dot'></span> EditorConfig <span className='portfolio__dot'></span> Yarn
+                  Tech stack:<br/><span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>React Router</span> - <span className='portfolio__tech'>React Bootstrap</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -48,14 +48,14 @@ const Portfolio = () => {
                 <img src={admin} alt='' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
-                <h5 className='portfolio__description'>
+                <h5 className='portfolio__title'>
                   Administration panel
                 </h5>
                 <p>
                   My individual project based on the PSD templates provided during the Web Developer Plus Bootcamp.
                 </p>
                 <p>
-                Tech stack: JavaScript <span className='portfolio__dot'></span> HTML <span className='portfolio__dot'></span> Sass/SCSS <span className='portfolio__dot'></span> ESLint <span className='portfolio__dot'></span> EditorConfig <span className='portfolio__dot'></span> stylelint <span className='portfolio__dot'></span> npm
+                Tech stack:<br/><span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>stylelint</span> - <span className='portfolio__tech'>npm</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     className='portfolio__link'
                     rel='noopener noreferrer'
                     target='_blank'>
-                      link
+                      code
                   </a>
                 </div>
               </div>
@@ -84,14 +84,14 @@ const Portfolio = () => {
                 <img src={todolist} alt='To-Do List' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
-                <h5 className='portfolio__description'>
+                <h5 className='portfolio__title'>
                   To-do list
                 </h5>
                 <p>
                   The task list built in React. The to-dos can be flagged as important and due dates selected manually.
                 </p>
                 <p>
-                  Tech stack: React <span className='portfolio__dot'></span> CRA <span className='portfolio__dot'></span> HTML <span className='portfolio__dot'></span> Sass/SCSS <span className='portfolio__dot'></span> ESLint <span className='portfolio__dot'></span> EditorConfig <span className='portfolio__dot'></span> Yarn
+                  Tech stack:<br/><span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -106,7 +106,7 @@ const Portfolio = () => {
                     className='portfolio__link'
                     rel='noopener noreferrer'
                     target='_blank'>
-                      link
+                      code
                   </a>
                 </div>
               </div>
@@ -118,16 +118,16 @@ const Portfolio = () => {
                 <img src={rps} alt='Rock, paper, scissors' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
-                <h5 className='portfolio__description'>
+                <h5 className='portfolio__title'>
                   Rock, paper, scissors
                 </h5>
                 <p>
                   My first game built in vanilla JavaScript. The player is asked to enter a name and choose up to 10 rounds.
                 </p>
                 <p>
-                  Tech stack: JavaScript <span className='portfolio__dot'></span> HTML <span className='portfolio__dot'></span> Sass/SCSS <span className='portfolio__dot'></span> ESLint <span className='portfolio__dot'></span> EditorConfig <span className='portfolio__dot'></span> npm
+                  Tech stack:<br/><span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>npm</span>
                 </p>
-                <div className='portfolio__link-div'>
+                <div>
                   <a
                     href=''
                     className='portfolio__link'
@@ -140,7 +140,7 @@ const Portfolio = () => {
                     className='portfolio__link'
                     rel='noopener noreferrer'
                     target='_blank'>
-                      link
+                    link
                   </a>
                 </div>
               </div>
