@@ -1,31 +1,32 @@
 @import '../global.scss';
-.portfolio {
 
+.portfolio__row {
+  padding: 10px 0;
 }
 
 .portfolio__wrapper {
   display: flex;
- // overflow: hidden;//
   flex-direction: column;
   text-align: center;
   //padding: 30px;
-  margin: 20px 35px;
-  //background-color: blue;
+  margin: 15px;
+  background-color: lighten(grey, 40%);
     &:hover {
     transform: scale(1.1);
     transition: all 0.5s;
     //background-color: lighten(yellow, 40%);
   }
    @include laptop {
-    padding: 35px;
+    padding: 20px;
     //margin: 20px 35px;
     //background-color: yellow;
   }
-  @include desktop {
-    padding: 25px;
-    //margin: 20px 35px;
-    background-color: grey;
-  }
+  // @include desktop {
+  //   padding: 20px;
+  //   //margin: 20px 35px;
+  //  // background-color: grey;
+
+  // }
 }
 
 .portfolio__img-div {

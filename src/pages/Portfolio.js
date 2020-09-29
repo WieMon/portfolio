@@ -8,9 +8,9 @@ import rps from '../images/rps.png';
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <Container>
-        <Row className='p-4'>
-          <Col sm={12} md={6}>
+      <Container className='p-2'>
+        <Row className='portfolio__row'>
+          <Col sm={12} md={6} className='p-2'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src='' alt='' className='portfolio__img'></img>
@@ -42,7 +42,7 @@ const Portfolio = () => {
 
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-0'>
+          <Col sm={12} md={6} className='p-2'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={admin} alt='' className='portfolio__img'></img>
@@ -77,8 +77,8 @@ const Portfolio = () => {
             </div>
           </Col>
         </Row>
-        <Row className='p-4'>
-          <Col sm={12} md={6} className='p-0'>
+        <Row className='portfolio__row'>
+          <Col sm={12} md={6} className='p-2'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={todolist} alt='To-Do List' className='portfolio__img'></img>
@@ -112,7 +112,7 @@ const Portfolio = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-0'>
+          <Col sm={12} md={6} className='p-2'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={rps} alt='Rock, paper, scissors' className='portfolio__img'></img>
