@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
-import admin from '../images/admin.png';
+import portfoliotest from '../images/admin1.png';
+import admin from '../images/admin2.png';
 import todolist from '../images/todolist.png';
 import rps from '../images/rps.png';
 
@@ -10,17 +11,20 @@ const Portfolio = () => {
     <div className='portfolio'>
       <Container className='p-2'>
         <Row className='portfolio__row'>
-          <Col sm={12} md={6} className='p-2'>
+          <Col sm={12} md={6} className='p-3'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
-                <img src='' alt='' className='portfolio__img'></img>
+                <img src={portfoliotest} alt='' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
                   Portfolio
                 </h5>
                 <p>
-                  Tech stack:<br/><span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>React Router</span> - <span className='portfolio__tech'>React Bootstrap</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
+                  TEST   My individual project based on the PSD templates provided during the Web Developer Plus Bootcamp.
+                </p>
+                <p>
+                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>React Router</span> - <span className='portfolio__tech'>React Bootstrap</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -42,7 +46,7 @@ const Portfolio = () => {
 
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-2'>
+          <Col sm={12} md={6} className='p-3'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={admin} alt='' className='portfolio__img'></img>
@@ -55,7 +59,7 @@ const Portfolio = () => {
                   My individual project based on the PSD templates provided during the Web Developer Plus Bootcamp.
                 </p>
                 <p>
-                Tech stack:<br/><span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>stylelint</span> - <span className='portfolio__tech'>npm</span>
+                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>stylelint</span> - <span className='portfolio__tech'>npm</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -78,7 +82,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <Row className='portfolio__row'>
-          <Col sm={12} md={6} className='p-2'>
+          <Col sm={12} md={6} className='p-4'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={todolist} alt='To-Do List' className='portfolio__img'></img>
@@ -91,7 +95,7 @@ const Portfolio = () => {
                   The task list built in React. The to-dos can be flagged as important and due dates selected manually.
                 </p>
                 <p>
-                  Tech stack:<br/><span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
+                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>React</span> - <span className='portfolio__tech'>CRA</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>Yarn</span>
                 </p>
                 <div className='portfolio__link-div'>
                   <a
@@ -112,7 +116,7 @@ const Portfolio = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-2'>
+          <Col sm={12} md={6} className='p-4'>
             <div className='portfolio__wrapper'>
               <div className='portfolio__img-div'>
                 <img src={rps} alt='Rock, paper, scissors' className='portfolio__img'></img>
@@ -125,7 +129,7 @@ const Portfolio = () => {
                   My first game built in vanilla JavaScript. The player is asked to enter a name and choose up to 10 rounds.
                 </p>
                 <p>
-                  Tech stack:<br/><span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>npm</span>
+                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>JavaScript</span> - <span className='portfolio__tech'>HTML</span> - <span className='portfolio__tech'>Sass/SCSS</span> - <span className='portfolio__tech'>ESLint</span> - <span className='portfolio__tech'>EditorConfig</span> - <span className='portfolio__tech'>npm</span>
                 </p>
                 <div>
                   <a

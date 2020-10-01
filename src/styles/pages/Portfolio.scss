@@ -2,35 +2,35 @@
 
 .portfolio__row {
   padding: 10px 0;
+  @include laptop {
+    padding: 20px;//?
+  }
 }
 
 .portfolio__wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
-  //padding: 30px;
-  margin: 15px;
   background-color: lighten(grey, 40%);
+  box-shadow: 8px 8px 5px grey;
+  padding: 15px;
+  margin: 15px;
     &:hover {
     transform: scale(1.1);
     transition: all 0.5s;
     //background-color: lighten(yellow, 40%);
+    box-shadow: 12px 12px 5px grey;
   }
    @include laptop {
-    padding: 20px;
-    //margin: 20px 35px;
-    //background-color: yellow;
-  }
-  // @include desktop {
-  //   padding: 20px;
-  //   //margin: 20px 35px;
-  //  // background-color: grey;
+    //padding: 20px;
+    margin: 20px 35px;
 
-  // }
+  }
 }
 
 .portfolio__img-div {
   margin-bottom: 30px;
+  border: 5px solid grey;
   // &:hover {
   //   transform: scale(0.8);
   //   transition: 0.5s;
@@ -40,20 +40,12 @@
 .portfolio__img {
   width: 100%;
   height: 100%;
-  //object-fit: cover;
-  //transition: all 1s;
-  // &:hover {
-  //   transform: scale(0.8);
-  //   transition: height 0.5s;
-  //   height: 50%;
-  //   width: 100%;
-  // }
+
 }
 
-.portfolio__description-div {
-  //background-color: red;
-  padding: 10px;
-}
+// .portfolio__description-div {
+
+// }
 
 .portfolio__tech {
   font-weight: 700;
