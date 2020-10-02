@@ -1,10 +1,21 @@
 @import '../global.scss';
 
 .portfolio__row {
-  padding: 10px 0;
+  display: flex;
+  //padding: 10px 0;
   @include laptop {
-    padding: 20px;//?
+    padding: 30px 70px;
   }
+  @include desktop {
+    padding: 0;//?
+  }
+}
+
+.test {
+  //float: left;
+  //flex: 1 0;
+  // margin-left: 1rem;
+  // margin-right: 1rem;
 }
 
 .portfolio__wrapper {
@@ -13,51 +24,82 @@
   text-align: center;
   background-color: lighten(grey, 40%);
   box-shadow: 8px 8px 5px grey;
-  padding: 15px;
+  border-radius: 1%;
   margin: 15px;
     &:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-    //background-color: lighten(yellow, 40%);
     box-shadow: 12px 12px 5px grey;
-  }
-   @include laptop {
-    //padding: 20px;
-    margin: 20px 35px;
+    }
+    &:hover .portfolio__img-div {
+      opacity: 0.5;
+      filter: grayscale(0.8);
+    }
+    &:hover .portfolio__link-div {
+      opacity: 1;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%);
+      transition: all 0.5s ease-in-out;
+    }
+    &:hover .portfolio__link {
+      color:green;
+      background-color: lighten($color-two, 30%);
+      border-radius: 6%;
 
+    }
+    .portfolio__link:hover {
+      text-decoration: none;
+      color: red;
+      background-color: lighten($color-two, 40%);
+      border-radius: 6%;
+      box-shadow: 3px 3px 2px red;
+    }
+  @include laptop {
+    margin: 0 30px;
+    padding: 10px;
+  }
+  @include desktop {
+     margin: 20px;
+     padding: 20px;
   }
 }
 
 .portfolio__img-div {
-  margin-bottom: 30px;
+  position: relative;
+  margin-bottom: 25px;
   border: 5px solid grey;
-  // &:hover {
-  //   transform: scale(0.8);
-  //   transition: 0.5s;
-  // }
 }
 
 .portfolio__img {
   width: 100%;
   height: 100%;
-
 }
 
-// .portfolio__description-div {
+.portfolio__description-div p {
+  &:first-of-type {
+     //margin: 10px;
+  }
 
-// }
-
+}
 .portfolio__tech {
   font-weight: 700;
+}
+
+.portfolio__link-div {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+  text-align: center;
+
 }
 
 .portfolio__link {
   text-transform: uppercase;
   padding: 5px 15px;
-  color: red;
-  &:hover {
-    text-decoration: none;
-    color: red;
-    background-color: lighten($color-two, 30%);
-  }
+  margin: 0 15px;
+  box-shadow: 3px 3px 2px grey;
 }
+

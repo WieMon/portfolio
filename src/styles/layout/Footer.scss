@@ -17,7 +17,7 @@
 }
 
 .footer__item {
-  padding: 10px 25px;
+  padding: 7px 25px 5px 25px;
 }
 
 .footer__icon {
@@ -26,6 +26,7 @@
   &:hover {
     transform: scale(1.2);
     transition: all 0.5s;
+ 
   }
   &:active {
     color: red;
