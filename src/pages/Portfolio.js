@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
-import portfoliotest from '../images/admin1.png';
-import admin from '../images/admin2.png';
+import portfoliotest from '../images/admin.png';
+import admin from '../images/admin.png';
 import todolist from '../images/todolist.png';
 import rps from '../images/rps.png';
 
