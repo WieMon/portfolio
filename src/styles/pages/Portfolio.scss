@@ -3,7 +3,7 @@
 .portfolio__row {
   display: flex;
   @include tabletlandscape {
-    padding: 20px 30px;
+    padding: 15px 20px;
   }
   @include laptop {
     padding: 30px 80px;
@@ -21,21 +21,22 @@
   box-shadow: 8px 8px 5px grey;
   border-radius: 1%;
   height: 100%;
-  margin: 15px;
+  margin: 10px 15px;
   padding: 5px;
   &:hover {
     transform: scale(1.1);
     transition: all 0.5s;
     box-shadow: 12px 12px 5px grey;
   }
-
+  @include tabletlandscape {
+    margin: 0px 15px;
     &:hover .portfolio__img-div {
-    opacity: 0.5;
-    filter: grayscale(0.8);
+      opacity: 0.5;
+      filter: grayscale(0.8);
     }
     &:hover .portfolio__link-div {
       opacity: 1;
-      top: 35%;
+      top: 28%;
       left: 50%;
       transform: translate(-50%);
       transition: all 0.5s ease-in-out;
@@ -53,7 +54,7 @@
       border-radius: 6%;
       box-shadow: 3px 3px 2px red;
     }
-
+  }
 
   @include mobilelandscape {
     padding: 10px;
@@ -94,25 +95,39 @@
   font-weight: 700;
 }
 
-.test {
-  margin-top: auto;
-}
+// .test {
+//   margin-top: auto;
+// }
 
 .portfolio__link-div {
   text-align: center;
-
+  opacity: 1;
+  margin: 15px 0 0 0;
+  @include tabletlandscape {
     opacity: 0;
     position: absolute;
+    margin: 0;
     top: 55%;
     left: 50%;
     transform: translate(-50%);
+  }
+  @include desktop {
+    top: 30%;
+  }
 
 }
 
 .portfolio__link {
   text-transform: uppercase;
   padding: 5px 15px;
-  margin: 0 15px;
+  margin: 15px;
+  border-radius: 6%;
   box-shadow: 3px 3px 2px grey;
+  &:hover {
+    text-decoration: none;
+    color: red;
+    background-color: lighten($color-two, 40%);
+    box-shadow: 3px 3px 2px red;
+  }
 }
 
