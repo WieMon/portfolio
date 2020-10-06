@@ -3,13 +3,13 @@
 .portfolio__row {
   display: flex;
   @include tabletlandscape {
-    padding: 15px 20px;
+    padding: 10px;
   }
   @include laptop {
-    padding: 30px 80px;
+    padding: 25px 80px;
   }
   @include desktop {
-    padding: 0;
+    padding: 25px 0;
   }
 }
 
@@ -17,12 +17,13 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: lighten(grey, 40%);
-  box-shadow: 8px 8px 5px grey;
-  border-radius: 1%;
   height: 100%;
+  width: 90%;
   margin: 10px 15px;
   padding: 5px;
+  box-shadow: 8px 8px 5px grey;
+  border-radius: 1%;
+  background-color: lighten(grey, 40%);
   &:hover {
     transform: scale(1.1);
     transition: all 0.5s;
@@ -44,37 +45,29 @@
     &:hover .portfolio__link {
       color:green;
       background-color: lighten($color-two, 30%);
-      border-radius: 6%;
-
     }
     .portfolio__link:hover {
       text-decoration: none;
       color: red;
       background-color: lighten($color-two, 40%);
-      border-radius: 6%;
       box-shadow: 3px 3px 2px red;
     }
   }
 
   @include mobilelandscape {
     padding: 10px;
-
   }
-  @include tabletlandscape {
-    //height: 100%;
-  }
-  @include laptop {
-    margin: 0 30px;
+    @include laptop {
+    margin: 0 35px;
     padding: 15px;
   }
   @include desktop {
-    margin: 20px;
-    padding: 20px;
+    margin: 0 20px;
   }
 }
 
 .portfolio__col {
-   margin-bottom: 35px;
+  margin-bottom: 35px;
   @include tabletlandscape {
     margin-bottom: 0;
   }
@@ -95,9 +88,12 @@
   font-weight: 700;
 }
 
-// .test {
-//   margin-top: auto;
-// }
+.portfolio__p {
+  margin-bottom: 10px;
+  @include desktop {
+    margin-bottom: 5px;
+  }
+}
 
 .portfolio__link-div {
   text-align: center;
@@ -111,10 +107,6 @@
     left: 50%;
     transform: translate(-50%);
   }
-  @include desktop {
-    top: 30%;
-  }
-
 }
 
 .portfolio__link {
@@ -123,11 +115,4 @@
   margin: 15px;
   border-radius: 6%;
   box-shadow: 3px 3px 2px grey;
-  &:hover {
-    text-decoration: none;
-    color: red;
-    background-color: lighten($color-two, 40%);
-    box-shadow: 3px 3px 2px red;
-  }
 }
-
