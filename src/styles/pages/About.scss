@@ -17,10 +17,10 @@ img {
   border-radius: 1%;
   padding: 0 20px;
   margin-bottom: 20px;
-  box-shadow: 6px -4px 7px -4px lighten(grey,20%);
+  box-shadow: $boxshadow-right;
   &:hover {
-    transition: all 0.5s;
-    box-shadow: -4px 4px 7px 3px lighten(red,20%);
+    transition: $transition;
+    box-shadow: $boxshadow-right-hover;
   }
 }
 
@@ -56,19 +56,19 @@ img {
 .about__skills-row {
   border-radius: 1%;
   &:nth-child(odd) {
-    box-shadow: -6px -4px 7px -4px lighten(grey,20%);
+    box-shadow: $boxshadow-left;
     margin-bottom: 35px;
      &:hover {
-    transition: all 0.5s;
-    box-shadow: 4px 4px 7px 3px lighten(red,20%);
+    transition: $transition;
+    box-shadow: $boxshadow-left-hover;
     }
   }
   &:nth-child(even) {
-    box-shadow: 6px -4px 7px -4px lighten(grey,20%);
+    box-shadow: $boxshadow-right;
     margin-bottom: 10px;
     &:hover {
-      transition: all 0.5s;
-      box-shadow: -4px 4px 7px 3px lighten(red,20%);
+      transition: $transition;
+      box-shadow: $boxshadow-right-hover;
     }
   }
 }
@@ -88,5 +88,5 @@ img {
   padding: 0 20px;
   margin-top: 10px;
   border-radius: 5%;
-  box-shadow: 5px 4px 7px 1px lighten(grey,20%);
+  box-shadow: $boxshadow-icon;
 }

@@ -81,7 +81,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: $transform-postion-hamburger;
 }
 
 .header__hamburger {
@@ -119,7 +119,7 @@
     &:hover {
       background-color: lighten($color-two, 25%);
       border-right: 4px solid red;
-      transition: 0.4s;
+      transition: $transition;
     }
   @include tabletportrait {
     flex-grow: 1;
@@ -134,23 +134,19 @@
 }
 
 .header__link {
-  color: $color-one;
-  text-transform: uppercase;
+  @include link;
   padding-right: 20px;
+  color: $color-one;
   &:hover {
-    text-decoration: none;
-    color: red;
+    @include link-hover;
     background-color: transparent;
     box-shadow: none;
   }
   @include tabletportrait {
     padding: 15px 15px;
-    text-transform: uppercase;
     &:hover {
-      text-decoration: none;
-      color: red;
-      background-color: lighten($color-two, 15%);
-      box-shadow: 0 0 5px red;
+      @include link-hover;
+
     }
   }
   @include laptop {

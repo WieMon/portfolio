@@ -24,9 +24,9 @@
   font-size: 30px;
   color: darken($color-two, 25%);
   &:hover {
-    transform: scale(1.2);
-    transition: all 0.5s;
- 
+    transform: scale(1.1);
+    transition: $transition;
+
   }
   &:active {
     color: red;

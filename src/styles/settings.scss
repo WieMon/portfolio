@@ -5,3 +5,16 @@ $font-two: 'Open Sans', sans-serif;
 
 $color-one: white;
 $color-two: black;
+
+$transition: all 0.5s;
+$transform-scale: scale(1.1);
+$transform-position: translate(-50%);
+$transform-postion-hamburger: translate(-50%, -50%);
+
+$boxshadow-right: 8px -4px 6px -4px lighten(grey, 20%);
+$boxshadow-right-hover: -8px 4px 7px 3px lighten(grey, 10%);
+$boxshadow-left: -8px -4px 6px -4px lighten(grey, 20%);
+$boxshadow-left-hover: 8px 4px 7px 3px lighten(grey, 10%);
+$boxshadow-link: 3px 3px 2px grey;
+$boxshadow-link-hover: 3px 3px 2px red;
+$boxshadow-icon: 5px 4px 7px 1px lighten(grey,20%);

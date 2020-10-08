@@ -34,3 +34,15 @@
     @content
   }
 };
+
+@mixin link {
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+@mixin link-hover {
+  text-decoration: none;
+  color: red;
+  box-shadow: $boxshadow-link-hover;
+  background-color: lighten($color-two, 25%);
+}
