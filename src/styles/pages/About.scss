@@ -14,7 +14,7 @@ img {
 }
 
 .about__text-row {
-  border-radius: 1%;
+  border-radius: $radius-small;
   padding: 0 20px;
   margin-bottom: 20px;
   box-shadow: $boxshadow-right;
@@ -42,19 +42,16 @@ img {
 }
 
 .about__skills {
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 18px;
   margin: 0;
   padding: 15px 5px;
-  text-align: left;
-  @include tabletportrait {
-    //text-align: center;
-  }
 }
 
 .about__skills-row {
-  border-radius: 1%;
+  border-radius: $radius-small;
   &:nth-child(odd) {
     box-shadow: $boxshadow-left;
     margin-bottom: 35px;
@@ -87,6 +84,6 @@ img {
 .about__icon-span {
   padding: 0 20px;
   margin-top: 10px;
-  border-radius: 5%;
+  border-radius: $radius-big;
   box-shadow: $boxshadow-icon;
 }

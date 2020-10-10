@@ -37,7 +37,7 @@
   }
   @include mobilelandscape {
     font-size: 26px;
-    color: red;
+    color: $color-four;
   }
   @include tabletlandscape {
     font-size: 30px;
@@ -118,7 +118,7 @@
   text-align: right;
     &:hover {
       background-color: lighten($color-two, 25%);
-      border-right: 4px solid red;
+      border-right: 4px solid $color-four;
       transition: $transition;
     }
   @include tabletportrait {

@@ -37,12 +37,12 @@
 
 @mixin link {
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: $radius-big;
 }
 
 @mixin link-hover {
   text-decoration: none;
-  color: red;
+  color: $color-four;
   box-shadow: $boxshadow-link-hover;
   background-color: lighten($color-two, 25%);
 }

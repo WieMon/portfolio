@@ -2,11 +2,10 @@
 
 .footer {
   position: fixed;
-  //height: 70px;
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: grey;
+  background-color: $color-three;
 }
 
 .footer__list {
@@ -26,9 +25,8 @@
   &:hover {
     transform: scale(1.1);
     transition: $transition;
-
   }
   &:active {
-    color: red;
+    color: $color-four;
   }
 }

@@ -5,6 +5,8 @@ $font-two: 'Open Sans', sans-serif;
 
 $color-one: white;
 $color-two: black;
+$color-three: grey;
+$color-four: red;
 
 $transition: all 0.5s;
 $transform-scale: scale(1.1);
@@ -18,3 +20,6 @@ $boxshadow-left-hover: 8px 4px 7px 3px lighten(grey, 10%);
 $boxshadow-link: 3px 3px 2px grey;
 $boxshadow-link-hover: 3px 3px 2px red;
 $boxshadow-icon: 5px 4px 7px 1px lighten(grey,20%);
+
+$radius-big: 5%;
+$radius-small: 1%;
