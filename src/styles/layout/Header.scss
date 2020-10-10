@@ -15,7 +15,7 @@
 /*Name and title*/
 .header__name-div {
   padding: 15px 10px;
-  @include tabletportrait{
+  @include tabletportrait {
     padding: 15px 10px 15px 15px;
   }
   @include tabletlandscape {
@@ -29,8 +29,8 @@
 .header__name {
   margin: 0;
   text-align: center;
+  font-weight: $font-bold;
   font-family: $font-one;
-  font-weight: 700;
   @include mobileportrait {
     font-size: 22px;
     color: blue;
@@ -96,9 +96,9 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  z-index: 2;
-  width: 100%;
   padding: 0;
+  width: 100%;
+  z-index: 2;
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.7);
   @include tabletportrait {
@@ -116,15 +116,15 @@
 .header__item {
   padding: 10px;
   text-align: right;
-    &:hover {
-      background-color: lighten($color-two, 25%);
-      border-right: 4px solid $color-four;
-      transition: $transition;
-    }
+  &:hover {
+    transition: $transition;
+    border-right: 4px solid $color-four;
+    background-color: lighten($color-two, 25%);
+  }
   @include tabletportrait {
     flex-grow: 1;
-    padding: 15px 15px;
     text-align: center;
+    padding: 15px 15px;
     &:hover {
       background-color: transparent;
       border: none;
@@ -146,7 +146,6 @@
     padding: 15px 15px;
     &:hover {
       @include link-hover;
-
     }
   }
   @include laptop {
@@ -156,6 +155,3 @@
     font-size: 20px;
   }
 }
-
-
-

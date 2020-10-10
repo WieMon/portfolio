@@ -1,5 +1,6 @@
 @import '../global.scss';
 
+/*Row & Columns*/
 .portfolio__row {
   display: flex;
   @include tabletlandscape {
@@ -13,6 +14,14 @@
   }
 }
 
+.portfolio__col {
+  margin-bottom: 35px;
+  @include tabletlandscape {
+    margin-bottom: 0;
+  }
+}
+
+/*Portfolio sections*/
 .portfolio__wrapper {
   display: flex;
   flex-direction: column;
@@ -50,7 +59,6 @@
       @include link-hover;
     }
   }
-
   @include mobilelandscape {
     padding: 10px;
   }
@@ -60,13 +68,6 @@
   }
   @include desktop {
     margin: 0 20px;
-  }
-}
-
-.portfolio__col {
-  margin-bottom: 35px;
-  @include tabletlandscape {
-    margin-bottom: 0;
   }
 }
 
@@ -82,20 +83,20 @@
 }
 
 .portfolio__tech {
-  font-weight: 700;
-}
-
-.portfolio__p {
   margin-bottom: 10px;
   @include desktop {
     margin-bottom: 5px;
   }
 }
 
+.portfolio__bold {
+  font-weight: $font-bold;
+}
+
 .portfolio__link-div {
   text-align: center;
-  opacity: 1;
   margin: 15px 0 0 0;
+  opacity: 1;
   @include tabletlandscape {
     position: absolute;
     opacity: 0;

@@ -23,8 +23,8 @@ const Portfolio = () => {
                 <p>
                   TEST   My individual project based on the PSD templates provided during the Web Developer Bootcamp.
                 </p>
-                <p className='portfolio__p'>
-                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>React</span>-<span className='portfolio__tech'>React Router</span>-<span className='portfolio__tech'>React Bootstrap</span>-<span className='portfolio__tech'>CRA</span>-<span className='portfolio__tech'>HTML</span>-<span className='portfolio__tech'>Sass/SCSS</span>-<span className='portfolio__tech'>ESLint</span>-<span className='portfolio__tech'>EditorConfig</span>-<span className='portfolio__tech'>Yarn</span>
+                <p className='portfolio__tech'>
+                  <span className='portfolio__bold'>Tech stack</span>: <span className='portfolio__bold'>React</span>-<span className='portfolio__bold'>React Router</span>-<span className='portfolio__bold'>React Bootstrap</span>-<span className='portfolio__bold'>CRA</span>-<span className='portfolio__bold'>HTML</span>-<span className='portfolio__bold'>Sass/SCSS</span>-<span className='portfolio__bold'>ESLint</span>-<span className='portfolio__bold'>EditorConfig</span>-<span className='portfolio__bold'>Yarn</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -57,8 +57,8 @@ const Portfolio = () => {
                 <p>
                   My individual project based on the PSD templates provided during the Web Developer Bootcamp.
                 </p>
-                <p className='portfolio__p'>
-                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>JavaScript</span>-<span className='portfolio__tech'>HTML</span>-<span className='portfolio__tech'>Sass/SCSS</span>-<span className='portfolio__tech'>ESLint</span>-<span className='portfolio__tech'>EditorConfig</span>-<span className='portfolio__tech'>stylelint</span>-<span className='portfolio__tech'>npm</span>
+                <p className='portfolio__tech'>
+                  <span className='portfolio__bold'>Tech stack</span>: <span className='portfolio__bold'>JavaScript</span>-<span className='portfolio__bold'>HTML</span>-<span className='portfolio__bold'>Sass/SCSS</span>-<span className='portfolio__bold'>ESLint</span>-<span className='portfolio__bold'>EditorConfig</span>-<span className='portfolio__bold'>stylelint</span>-<span className='portfolio__bold'>npm</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -93,8 +93,8 @@ const Portfolio = () => {
                 <p>
                   The task list built in React. The to-dos can be flagged as important and due dates selected manually.
                 </p>
-                <p className='portfolio__p'>
-                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>React</span>-<span className='portfolio__tech'>CRA</span>-<span className='portfolio__tech'>HTML</span>-<span className='portfolio__tech'>Sass/SCSS</span>-<span className='portfolio__tech'>ESLint</span>-<span className='portfolio__tech'>EditorConfig</span>-<span className='portfolio__tech'>Yarn</span>
+                <p className='portfolio__tech'>
+                  <span className='portfolio__bold'>Tech stack</span>: <span className='portfolio__bold'>React</span>-<span className='portfolio__bold'>CRA</span>-<span className='portfolio__bold'>HTML</span>-<span className='portfolio__bold'>Sass/SCSS</span>-<span className='portfolio__bold'>ESLint</span>-<span className='portfolio__bold'>EditorConfig</span>-<span className='portfolio__bold'>Yarn</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -127,8 +127,8 @@ const Portfolio = () => {
                 <p>
                   My first game built in vanilla JavaScript. The player is asked to enter a name and choose up to 10 rounds.
                 </p>
-                <p className='portfolio__p'>
-                  <span className='portfolio__tech'>Tech stack</span>: <span className='portfolio__tech'>JavaScript</span>-<span className='portfolio__tech'>HTML</span>-<span className='portfolio__tech'>Sass/SCSS</span>-<span className='portfolio__tech'>ESLint</span>-<span className='portfolio__tech'>EditorConfig</span>-<span className='portfolio__tech'>npm</span>
+                <p className='portfolio__tech'>
+                  <span className='portfolio__bold'>Tech stack</span>: <span className='portfolio__bold'>JavaScript</span>-<span className='portfolio__bold'>HTML</span>-<span className='portfolio__bold'>Sass/SCSS</span>-<span className='portfolio__bold'>ESLint</span>-<span className='portfolio__bold'>EditorConfig</span>-<span className='portfolio__bold'>npm</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
