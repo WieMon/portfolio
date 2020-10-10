@@ -1,22 +1,20 @@
 @import '../global.scss';
 
 .about {
-  z-index: 0;
   position: relative;
   text-align: center;
-  font-family: $font-two;
+  z-index: 0;
   line-height: 1.7;
+  font-family: $font-two;
 }
 
-img {
-  width: 75px;
-  height: 75px;
-}
-
-.about__text-row {
+/*Rows*/
+.about__row {
   border-radius: $radius-small;
-  padding: 0 20px;
-  margin-bottom: 20px;
+}
+
+.about__row--text {
+  margin-bottom: 30px;
   box-shadow: $boxshadow-right;
   &:hover {
     transition: $transition;
@@ -24,45 +22,18 @@ img {
   }
 }
 
-.about__text-span {
-  font-weight: 700;
-}
-
-.about__text-skills {
-  position: relative;
-}
-
-.about__text-skills-span {
-  position: absolute;
-  top: -12px;
-  right: -4px;
-  font-family: $font-one;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.about__skills {
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 18px;
-  margin: 0;
-  padding: 15px 5px;
-}
-
-.about__skills-row {
-  border-radius: $radius-small;
+.about__row--skills {
   &:nth-child(odd) {
-    box-shadow: $boxshadow-left;
     margin-bottom: 35px;
-     &:hover {
+    box-shadow: $boxshadow-left;
+    &:hover {
     transition: $transition;
     box-shadow: $boxshadow-left-hover;
     }
   }
   &:nth-child(even) {
-    box-shadow: $boxshadow-right;
     margin-bottom: 10px;
+    box-shadow: $boxshadow-right;
     &:hover {
       transition: $transition;
       box-shadow: $boxshadow-right-hover;
@@ -70,7 +41,35 @@ img {
   }
 }
 
-.about__skills-col {
+/*Introduction section*/
+.about__bold {
+  font-weight: 700;
+}
+
+/*Skills section*/
+.about__title-col {
+  position: relative;
+}
+
+.about__title {
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: $font-one;
+}
+
+.about__subtitle {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 15px 5px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.about__icon-col {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,9 +80,14 @@ img {
   margin-bottom: 10px;
 }
 
-.about__icon-span {
+.about__icon-name {
   padding: 0 20px;
   margin-top: 10px;
   border-radius: $radius-big;
   box-shadow: $boxshadow-icon;
+}
+
+.about__icon--img {
+  width: 75px;
+  height: 75px;
 }
