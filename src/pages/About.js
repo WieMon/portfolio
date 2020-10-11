@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/About.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileImage } from '@fortawesome/free-solid-svg-icons';
 import {
   faHtml5,
   faCss3Alt,
@@ -15,7 +16,6 @@ import {
   faJira,
   faSlack,
 } from '@fortawesome/free-brands-svg-icons';
-import corel from '../images/corel.svg';
 
 const About = () => {
   return (
@@ -109,7 +109,7 @@ const About = () => {
             <span className='about__icon-name'>Slack</span>
           </Col>
           <Col sm={12} md={4} className='p-4 about__icon-col'>
-            <img src={corel} alt='Corel logo' className='about__icon about__icon--img' />
+            <FontAwesomeIcon icon={faFileImage} className='about__icon' />
             <span className='about__icon-name'>CorelDRAW, Inkscape</span>
           </Col>
         </Row>
