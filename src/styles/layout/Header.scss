@@ -139,6 +139,8 @@
   color: $color-one;
   &:hover {
     @include link-hover;
+    box-shadow: $boxshadow-link-hover;
+    background-color: lighten($color-two, 25%);
     background-color: transparent;
     box-shadow: none;
   }
@@ -146,6 +148,8 @@
     padding: 15px 15px;
     &:hover {
       @include link-hover;
+      box-shadow: $boxshadow-link-hover;
+      background-color: lighten($color-two, 25%);
     }
   }
   @include laptop {

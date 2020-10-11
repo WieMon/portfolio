@@ -43,6 +43,4 @@
 @mixin link-hover {
   text-decoration: none;
   color: $color-four;
-  box-shadow: $boxshadow-link-hover;
-  background-color: lighten($color-two, 25%);
 }

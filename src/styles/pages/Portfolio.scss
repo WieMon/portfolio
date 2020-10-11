@@ -57,12 +57,14 @@
     }
     .portfolio__link:hover {
       @include link-hover;
+      box-shadow: $boxshadow-link-hover;
+      background-color: lighten($color-two, 25%);
     }
   }
   @include mobilelandscape {
     padding: 10px;
   }
-    @include laptop {
+  @include laptop {
     margin: 0 35px;
     padding: 15px;
   }
