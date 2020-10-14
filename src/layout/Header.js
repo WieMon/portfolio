@@ -48,7 +48,6 @@ class Header extends Component {
             <Col xs={9} sm={8} md={5} lg={4} className='d-block p-0'>
               <div className='header__name-div'>
                 <h2 className='header__name'>Monika Wieczorek</h2>
-                <h3 className='header__title'>junior front-end developer</h3>
               </div>
             </Col>
             <Col xs={3} sm={4} className='d-block d-md-none p-0 header__hamburger-col'>

@@ -23,11 +23,8 @@ const About = () => {
       <Container className='p-4'>
         <Row className='p-4 about__row about__row--text'>
           <Col sm={12} className='p-2'>
-            <p >
-              <span className='about__bold'>Welcome</span>
-            </p>
             <p>
-              My name is Monika and I am looking for a position of junior front-end developer.
+              My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
             </p>
             <p>
               My first experience with programming and visualization of complex data was during my PhD. I was using statistical and graphical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to show large datasets as audience-friendly presentations.

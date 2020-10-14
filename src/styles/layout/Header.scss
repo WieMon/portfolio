@@ -4,71 +4,49 @@
   display: flex;
   align-items: center;
   position: fixed;
+  height: $header-height;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1;
   color: $color-one;
   background-color: $color-two;
+  box-shadow: $boxshadow-header;
 }
 
-/*Name and title*/
+/*Name*/
 .header__name-div {
-  padding: 15px 10px;
-  @include tabletportrait {
-    padding: 15px 10px 15px 15px;
-  }
-  @include tabletlandscape {
-    padding: 15px 15px 15px 25px;
-  }
   @include desktop {
     padding-left: 150px;
   }
 }
 
 .header__name {
-  margin: 0;
   text-align: center;
+  margin: 0;
+  font-size: 24px;
   font-weight: $font-bold;
   font-family: $font-one;
+  color: $color-header-name;
   @include mobileportrait {
-    font-size: 22px;
-    color: blue;
+    color: blue; //test to remove
   }
   @include mobilelandscape {
-    font-size: 26px;
-    color: $color-four;
+    font-size: 28px;
+    color: $color-four;  //test to remove
+  }
+  @include tabletportrait {
+    font-size: 30px;
+    color: green; //test to remove
   }
   @include tabletlandscape {
-    font-size: 30px;
-    color: purple;
+    color: orange; //test to remove
   }
   @include laptop {
     font-size: 32px;
   }
   @include desktop {
     font-size: 36px;
-  }
-}
-
-.header__title {
-  margin: 0;
-  text-align: center;
-  font-family: $font-one;
-  @include mobileportrait {
-    font-size: 15px;
-    color: green;
-  }
-  @include mobilelandscape {
-    font-size: 18px;
-    color: yellow;
-  }
-  @include tabletlandscape {
-    font-size: 20px;
-    color: orange;
-  }
-  @include desktop {
-    font-size: 22px;
   }
 }
 
@@ -95,21 +73,23 @@
 .header__list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: absolute;
-  padding: 0;
+  margin: 0;
+  height: 100%;//
   width: 100%;
   z-index: 2;
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: $color-header-list;
   @include tabletportrait {
     flex-direction: row;
-    padding: 18px;
   }
   @include laptop {
     background-color: transparent;
+
   }
   @include desktop {
-    padding: 20px 180px 20px 0;
+    //padding: 20px 180px 20px 0;
   }
 }
 
@@ -145,7 +125,7 @@
     box-shadow: none;
   }
   @include tabletportrait {
-    padding: 15px 15px;
+    padding: 10px 15px;
     &:hover {
       @include link-hover;
       box-shadow: $boxshadow-link-hover;

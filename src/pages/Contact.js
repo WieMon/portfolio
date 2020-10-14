@@ -20,7 +20,7 @@ const Contact = () => {
               <span className='contact__icon-name'>CV</span>
             </a>
           </Col>
-          <Col sm={12} md={6} className=' contact__icon-col'>
+          <Col sm={12} md={6} className='p-2 contact__icon-col'>
             <a
               href='mailto:monikawieczoreq@gmail.com'
               className='contact__link'

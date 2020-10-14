@@ -9,12 +9,16 @@ $color-one: white;
 $color-two: black;
 $color-three: grey;
 $color-four: red;
+$color-boxshadow-header: hsla(0, 0%, 0%, 0.251);
+$color-header-list: #000000b3;
+$color-header-name: orange;
 
 $transition: all 0.5s;
 $transform-scale: scale(1.1);
 $transform-position: translate(-50%);
 $transform-postion-hamburger: translate(-50%, -50%);
 
+$boxshadow-header: 0px 10px 24px 0px $color-boxshadow-header;
 $boxshadow-right: 8px -4px 6px -4px lighten(grey, 20%);
 $boxshadow-right-hover: -8px 4px 7px 3px lighten(grey, 10%);
 $boxshadow-left: -8px -4px 6px -4px lighten(grey, 20%);
@@ -25,3 +29,6 @@ $boxshadow-icon: 5px 4px 7px 1px lighten(grey,20%);
 
 $radius-big: 5%;
 $radius-small: 1%;
+
+$header-height: 70px;
+$footer-height: 50px;
