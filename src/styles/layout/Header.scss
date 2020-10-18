@@ -69,14 +69,13 @@
   }
 }
 
-/*Links to pages*/
+/*Links*/
 .header__list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: absolute;
   margin: 0;
-  height: 100%;//
+  padding: 20px 0 0 0;
   width: 100%;
   z-index: 2;
   list-style-type: none;
@@ -84,12 +83,10 @@
   @include tabletportrait {
     flex-direction: row;
   }
-  @include laptop {
-    background-color: transparent;
-
-  }
-  @include desktop {
-    //padding: 20px 180px 20px 0;
+  @include tabletlandscape {
+    align-items: center;
+    padding: 10px;
+    height: 100%;
   }
 }
 
@@ -104,7 +101,7 @@
   @include tabletportrait {
     flex-grow: 1;
     text-align: center;
-    padding: 15px 15px;
+    padding: 25px 15px;
     &:hover {
       background-color: transparent;
       border: none;
@@ -126,10 +123,11 @@
   }
   @include tabletportrait {
     padding: 10px 15px;
+    // box-shadow: $boxshadow-link;
+    // background-color: lighten($color-two, 10%);
     &:hover {
-      @include link-hover;
       box-shadow: $boxshadow-link-hover;
-      background-color: lighten($color-two, 25%);
+      background-color: lighten($color-two, 10%);
     }
   }
   @include laptop {
