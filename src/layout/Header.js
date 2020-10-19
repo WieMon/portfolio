@@ -45,12 +45,12 @@ class Header extends Component {
       <header className='header'>
         <Container className='p-0 m-0' fluid>
           <Row className='p-0 m-0'>
-            <Col xs={8} md={5} lg={4} className='d-block p-0'>
+            <Col xs={9} sm={8} md={5} lg={4} className='d-block p-0'>
               <div className='header__name-div'>
                 <h2 className='header__name'>Monika Wieczorek</h2>
               </div>
             </Col>
-            <Col xs={4} className='d-block d-md-none p-0 header__hamburger-col'>
+            <Col xs={3} sm={4} className='d-block d-md-none p-0 header__hamburger-col'>
               <div className='header__hamburger-div' onClick={this.handleOpenHeader}>
                 <FontAwesomeIcon className='header__hamburger' icon={faBars} />
               </div>
