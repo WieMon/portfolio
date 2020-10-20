@@ -27,17 +27,16 @@ const About = () => {
               My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
             </p>
             <p>
-              My first experience with programming and visualization of complex data was during my PhD. I was using statistical and graphical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to show large datasets as audience-friendly presentations.
+              My first experience with programming and visualization of complex data was during my PhD. I was using statistical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to show large datasets as audience-friendly presentations.
             </p>
             <p>
-              Then, I have started working in fast-paced environment of large corporations. Ever since then effective multitasking and cross-cultural communication in <span className='about__bold'>English</span> or, occasionally, in <span className='about__bold'>German</span> have become my daily routine.
+              Then, I started working in fast-paced environment of large corporations. Ever since then effective multitasking and cross-cultural communication in <span className='about__bold'>English</span> and, occasionally, <span className='about__bold'>German</span> became my daily routine.
             </p>
             <p>
-              However, I am passionate about learning new things and have been missing tasks requiring analytical thinking and problem solving.
+              However, I am passionate about learning, analyzing and solving problems. Thus, I decided to look for another possibility for my job that would allow me to combine my desire to continuous development and the experience I have got so far.
             </p>
             <p>
-              Therefore, at the beginning of 2019 I have started learning web development through a several-month long bootcamp (<span className='about__bold'>
-              Kodilla</span>), the online and face-to-face courses (<span className='about__bold'>Udemy</span>, <span className='about__bold'>Stacja IT</span>), and on my own.
+              Therefore, at the beginning of 2019 I have started learning web development through a several-month long bootcamp (<span className='about__bold'>Kodilla Web Developer</span>), the online and face-to-face courses (<span className='about__bold'>Udemy</span>, <span className='about__bold'>Stacja IT</span>, <span className='about__bold'>MDN</span>), and on my own.
             </p>
           </Col>
         </Row>
