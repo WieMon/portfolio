@@ -35,8 +35,8 @@
     margin-bottom: 35px;
     box-shadow: $boxshadow-left;
     &:hover {
-    transition: $transition;
-    box-shadow: $boxshadow-left-hover;
+      transition: $transition;
+      box-shadow: $boxshadow-left-hover;
     }
   }
 }

@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Router>
         <Header />
-        <Container>
+        <Container >
           <Main />
         </Container>
         <Footer />
