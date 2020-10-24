@@ -4,7 +4,7 @@
 .portfolio__row {
   display: flex;
   @include tabletlandscape {
-    padding: 10px;
+    padding: 10px 0;
   }
   @include laptop {
     padding: 25px 80px;
@@ -21,25 +21,18 @@
   }
 }
 
-/*Portfolio sections*/
+/*Wrappers*/
 .portfolio__wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
   height: 100%;
-  width: 90%;
-  margin: 10px 15px;
-  padding: 5px;
-  box-shadow: $boxshadow-right;
+  width: 100%;
+  padding: 7px;
   border-radius: $radius-small;
   background-color: lighten($color-three, 40%);
-  &:hover {
-    transform: $transform-scale;
-    transition: $transition;
-    box-shadow: $boxshadow-right-hover;
-  }
   @include tabletlandscape {
-    margin: 0px 15px;
+    width: 90%;
     &:hover .portfolio__img-div {
       opacity: 0.5;
       filter: grayscale(0.8);
@@ -61,18 +54,30 @@
       background-color: lighten($color-two, 25%);
     }
   }
-  @include mobilelandscape {
-    padding: 10px;
-  }
   @include laptop {
-    margin: 0 35px;
-    padding: 15px;
-  }
-  @include desktop {
-    margin: 0 20px;
+    padding: 10px;
   }
 }
 
+.portfolio__wrapper--right {
+  box-shadow: $boxshadow-right;
+  &:hover {
+    transform: $transform-scale;
+    transition: $transition;
+    box-shadow: $boxshadow-right-hover;
+  }
+}
+
+.portfolio__wrapper--left {
+  box-shadow: $boxshadow-left;
+  &:hover {
+    transform: $transform-scale;
+    transition: $transition;
+    box-shadow: $boxshadow-left-hover;
+  }
+}
+
+/*Images*/
 .portfolio__img-div {
   position: relative;
   margin-bottom: 25px;
@@ -84,20 +89,19 @@
   height: 100%;
 }
 
-.portfolio__tech {
-  margin-bottom: 10px;
-  @include desktop {
-    margin-bottom: 5px;
-  }
+/*Descriptions*/
+.portfolio__description {
+  text-align: justify;
 }
 
 .portfolio__bold {
   font-weight: $font-bold;
 }
 
+/*Links*/
 .portfolio__link-div {
   text-align: center;
-  margin: 15px 0 0 0;
+  margin: 15px 0;
   opacity: 1;
   @include tabletlandscape {
     position: absolute;

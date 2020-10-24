@@ -43,9 +43,11 @@
   }
   @include laptop {
     font-size: 32px;
+    color: white; //test to remove
   }
   @include desktop {
     font-size: 36px;
+    color: brown; //test to remove
   }
 }
 
@@ -122,8 +124,6 @@
   }
   @include tabletportrait {
     padding: 10px 15px;
-    // box-shadow: $boxshadow-link;
-    // background-color: lighten($color-two, 10%);
     &:hover {
       box-shadow: $boxshadow-link-hover;
       background-color: lighten($color-two, 10%);
