@@ -9,8 +9,9 @@
   right: 0;
   left: 0;
   z-index: 1;
-  color: $color-one;
-  background-color: $color-two;
+  color: $color-text-background;
+  background-color: $color-brown;
+  box-shadow: $boxshadow-header;
 }
 
 /*Name*/
@@ -26,28 +27,18 @@
   font-size: 24px;
   font-weight: $font-bold;
   font-family: $font-one;
-  color: $color-header-name;
-  @include mobileportrait {
-    color: blue; //test to remove
-  }
+  color: $color-yellow;
   @include mobilelandscape {
     font-size: 28px;
-    color: $color-four;  //test to remove
   }
   @include tabletportrait {
     font-size: 30px;
-    color: green; //test to remove
-  }
-  @include tabletlandscape {
-    color: orange; //test to remove
   }
   @include laptop {
     font-size: 32px;
-    color: white; //test to remove
   }
   @include desktop {
     font-size: 36px;
-    color: brown; //test to remove
   }
 }
 
@@ -75,12 +66,12 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin: 0;
   padding: 20px 0 0 0;
   width: 100%;
   z-index: 2;
   list-style-type: none;
-  background-color: $color-header-list;
+  opacity: 0.9;
+  background-color: $color-brown;
   @include tabletportrait {
     flex-direction: row;
   }
@@ -94,10 +85,12 @@
 .header__item {
   padding: 10px;
   text-align: right;
+
   &:hover {
+
     transition: $transition;
-    border-right: 4px solid $color-four;
-    background-color: lighten($color-two, 25%);
+    border-right: 5px solid $color-hover;
+    background-color: darken($color-brown, 4%);
   }
   @include tabletportrait {
     flex-grow: 1;
@@ -114,11 +107,11 @@
 .header__link {
   @include link;
   padding-right: 20px;
-  color: $color-one;
+  color: $color-text-background;
   &:hover {
     @include link-hover;
     box-shadow: $boxshadow-link-hover;
-    background-color: lighten($color-two, 25%);
+    background-color: lighten($color-text, 25%);
     background-color: transparent;
     box-shadow: none;
   }
@@ -126,7 +119,7 @@
     padding: 10px 15px;
     &:hover {
       box-shadow: $boxshadow-link-hover;
-      background-color: lighten($color-two, 10%);
+      background-color: lighten($color-brown, 3%);
     }
   }
   @include laptop {

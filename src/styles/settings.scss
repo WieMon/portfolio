@@ -5,26 +5,26 @@ $font-two: 'Open Sans', sans-serif;
 
 $font-bold: 700;
 
-$color-one: white;
-$color-two: black;
-$color-three: grey;
-$color-four: red;
-$color-boxshadow-header: hsla(0, 0%, 0%, 0.251);
-$color-header-list: #000000b3;
-$color-header-name: orange;
+$color-text: black;
+$color-text-background: white;
+$color-grey: #a6a6a6;
+$color-hover: #ff3f34;
+$color-yellow: #ffa500;
+$color-brown: #261B1C;
 
 $transition: all 0.5s;
 $transform-scale: scale(1.1);
 $transform-position: translate(-50%);
 $transform-postion-hamburger: translate(-50%, -50%);
 
-$boxshadow-right: 8px -4px 7px 3px lighten(grey, 10%);
-$boxshadow-right-hover: -8px 4px 7px 3px lighten(grey, 10%);
-$boxshadow-left: -8px -4px 7px 3px lighten(grey, 10%);
-$boxshadow-left-hover: 8px 4px 7px 3px lighten(grey, 10%);
-$boxshadow-link: 3px 3px 2px grey;
-$boxshadow-link-hover: 3px 3px 2px red;
-$boxshadow-icon: 5px 4px 7px 1px lighten(grey,20%); 
+$boxshadow-right: 8px -4px 7px 3px $color-grey;
+$boxshadow-right-hover: -8px 4px 7px 3px $color-grey;
+$boxshadow-left: -8px -4px 7px 3px $color-grey;
+$boxshadow-left-hover: 8px 4px 7px 3px $color-grey;
+$boxshadow-link: 3px 3px 2px $color-grey;
+$boxshadow-link-hover: 3px 3px 2px $color-hover;
+$boxshadow-icon: 5px 4px 7px 1px lighten($color-brown, 40%);
+$boxshadow-header: 0px 10px 28px 0px $color-brown;
 
 $radius-big: 5%;
 $radius-small: 1%;

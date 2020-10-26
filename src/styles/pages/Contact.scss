@@ -42,7 +42,8 @@
   margin: 0 auto;
   padding: 50px;
   width: 100%;
-  color: $color-three;
+  color: $color-grey;
+  background-color: $color-text-background;
   @include mobilelandscape {
     padding: 60px;
   }

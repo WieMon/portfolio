@@ -22,7 +22,7 @@ const Portfolio = () => {
                 </h5>
                 <p className='portfolio__description'>
                   My individual project based on the PSD templates provided during the Web Developer Bootcamp.
-                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>React</span> - <span className='portfolio__bold'>React Router</span>-<span className='portfolio__bold'>React Bootstrap</span> - <span className='portfolio__bold'>CRA</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>Yarn</span>
+                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>React</span> - <span className='portfolio__bold'>React Router</span> - <span className='portfolio__bold'>React Bootstrap</span> - <span className='portfolio__bold'>CRA</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>Yarn</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>

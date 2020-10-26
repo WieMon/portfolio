@@ -12,6 +12,7 @@
 /*Rows*/
 .about__row {
   border-radius: $radius-small;
+  background-color: $color-text-background;
 }
 
 .about__row--text {
@@ -56,9 +57,11 @@
   position: absolute;
   top: -20px;
   right: 6px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   font-family: $font-one;
+  color: $color-yellow;
+  text-shadow: 2px 1px $color-brown;
 }
 
 .about__subtitle {

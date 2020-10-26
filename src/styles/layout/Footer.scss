@@ -6,7 +6,7 @@
   right: 0;
   left: 0;
   opacity: 0.8;
-  background-color: $color-three;
+  background-color: $color-grey;
 }
 
 .footer__list {
@@ -22,12 +22,13 @@
 
 .footer__icon {
   font-size: 30px;
-  color: darken($color-two, 25%);
+  color: darken($color-brown, 10%);
   &:hover {
     transform: scale(1.1);
     transition: $transition;
+    color: $color-hover;
   }
   &:active {
-    color: $color-four;
+    color: $color-hover;
   }
 }
