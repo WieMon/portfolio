@@ -30,7 +30,6 @@
   width: 100%;
   padding: 7px;
   border-radius: $radius-small;
-  //background-color: lighten($color-three, 40%);
   background-color: $color-text-background;
   @include tabletlandscape {
     width: 90%;
@@ -40,19 +39,10 @@
     }
     &:hover .portfolio__link-div {
       opacity: 1;
-      top: 28%;
+      top: 30%;
       left: 50%;
       transform: $transform-position;
       transition: $transition;
-    }
-    &:hover .portfolio__link {
-      color: $color-text-background;
-      background-color: lighten($color-text, 30%);
-    }
-    .portfolio__link:hover {
-      @include link-hover;
-      box-shadow: $boxshadow-link-hover;
-      background-color: lighten($color-text, 25%);
     }
   }
   @include laptop {
@@ -82,7 +72,7 @@
 .portfolio__img-div {
   position: relative;
   margin-bottom: 25px;
-  border: 4px solid $color-grey;
+  box-shadow: $boxshadow-header;
 }
 
 .portfolio__img {
@@ -91,8 +81,14 @@
 }
 
 /*Descriptions*/
+.portfolio__title {
+  color: lighten($color-brown, 5%);
+}
+
 .portfolio__description {
+  padding: 0  15px;
   text-align: justify;
+  color: lighten($color-brown, 5%);
 }
 
 .portfolio__bold {
@@ -118,9 +114,11 @@
   @include link;
   padding: 5px 15px;
   margin: 15px;
-  color: $color-text;
   box-shadow: $boxshadow-link;
+  color: $color-text-background;
+  background-color: lighten($color-brown, 15%);
   &:hover {
     @include link-hover;
+    box-shadow: $boxshadow-link-hover;
   }
 }

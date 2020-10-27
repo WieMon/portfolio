@@ -21,7 +21,7 @@ const About = () => {
   return (
     <div className='about'>
       <Container className='p-4'>
-        <Row className='p-4 about__row about__row--text'>
+        <Row className='about__row about__row--text'>
           <Col sm={12} className='p-2'>
             <p>
               My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
@@ -47,7 +47,7 @@ const About = () => {
             </h5>
           </Col>
         </Row>
-        <Row className='p-0 about__row about__row--skills'>
+        <Row className='about__row about__row--skills'>
           <Col xl={12}>
             <h5 className='about__subtitle'>
             Languages and libraries
@@ -78,7 +78,7 @@ const About = () => {
             <span className='about__icon-name'>Bootstrap</span>
           </Col>
         </Row>
-        <Row className='p-0 about__row about__row--skills'>
+        <Row className='about__row about__row--skills'>
           <Col xl={12}>
             <h5 className='about__subtitle'>
             Tools

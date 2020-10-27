@@ -46,7 +46,7 @@
   color: $color-grey;
   background-color: $color-text-background;
   &:hover .contact__icon, &:hover .contact__icon-name {
-    color: $color-hover
+    color: $color-hover;
   }
   @include mobilelandscape {
     padding: 60px;
@@ -66,7 +66,6 @@
   font-size: 75px;
   margin-bottom: 15px;
   color: lighten($color-brown, 15%);
-
 }
 
 .contact__icon-name {
