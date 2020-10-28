@@ -55,7 +55,7 @@ class Header extends Component {
                 <FontAwesomeIcon className='header__hamburger' icon={faBars} />
               </div>
             </Col>
-            <Col md={7} lg={8} className={!this.state.openHeader  ? 'd-none d-md-block p-0' : 'd-block p-0'}>
+            <Col md={7} lg={8} className={!this.state.openHeader ? 'd-none d-md-block p-0' : 'd-block p-0'}>
               <ul className='header__list' >
                 {menu}
               </ul>

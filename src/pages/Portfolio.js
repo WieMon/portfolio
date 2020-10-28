@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
-import portfoliotest800 from '../images/admin_800.png';
+import portfolio_800 from '../images/portfolio_800.png';
 import admin800 from '../images/admin_800.png';
 import todolist800 from '../images/todolist_800.png';
 import rps800 from '../images/rps_800.png';
@@ -14,14 +14,14 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--left'>
               <div className='portfolio__img-div'>
-                <img src={portfoliotest800} width='800' height='860' alt='portfolio' className='portfolio__img'></img>
+                <img src={portfolio_800} width='800' height='860' alt='portfolio' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
                   Portfolio
                 </h5>
                 <p className='portfolio__description'>
-                  My individual project based on the PSD templates provided during the Web Developer Bootcamp.
+                  My portfolio webpage built in React. Optimization was based on the Lighthouse report.
                   <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>React</span> - <span className='portfolio__bold'>React Router</span> - <span className='portfolio__bold'>React Bootstrap</span> - <span className='portfolio__bold'>CRA</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>Yarn</span>
                 </p>
               </div>
