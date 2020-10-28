@@ -2,7 +2,7 @@
 
 .about {
   position: relative;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
   z-index: 0;
   line-height: 1.7;
@@ -18,7 +18,7 @@
 
 .about__row--text {
   padding: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   box-shadow: $boxshadow-right;
   &:hover {
     transition: $transition;
@@ -29,7 +29,6 @@
 .about__row--skills {
   padding: 0 0 15px 0;
   &:nth-child(even) {
-    margin-bottom: 10px;
     box-shadow: $boxshadow-right;
     &:hover {
       transition: $transition;
@@ -37,7 +36,7 @@
     }
   }
   &:nth-child(odd) {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     box-shadow: $boxshadow-left;
     &:hover {
       transition: $transition;
@@ -46,9 +45,14 @@
   }
 }
 
+
 /*Introduction section*/
 .about__bold {
   font-weight: $font-bold;
+}
+
+.about__text-col {
+  padding: 20px;
 }
 
 /*Skills section*/
@@ -83,6 +87,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px;
 }
 
 .about__icon {

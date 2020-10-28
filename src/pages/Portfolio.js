@@ -9,9 +9,9 @@ import rps800 from '../images/rps_800.png';
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <Container className='p-3'>
+      <Container>
         <Row className='portfolio__row'>
-          <Col sm={12} md={6} className='p-2 portfolio__col'>
+          <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--left'>
               <div className='portfolio__img-div'>
                 <img src={portfoliotest800} width='800' height='860' alt='portfolio' className='portfolio__img'></img>
@@ -43,7 +43,7 @@ const Portfolio = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-2 portfolio__col'>
+          <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--right'>
               <div className='portfolio__img-div'>
                 <img src={admin800} width='800' height='860' alt='' className='portfolio__img'></img>
@@ -77,7 +77,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <Row className='portfolio__row'>
-          <Col sm={12} md={6} className='p-2 portfolio__col'>
+          <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--left'>
               <div className='portfolio__img-div'>
                 <img src={todolist800} width='800' height='860' alt='To-Do List' className='portfolio__img'></img>
@@ -109,7 +109,7 @@ const Portfolio = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={6} className='p-2 portfolio__col'>
+          <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--right'>
               <div className='portfolio__img-div'>
                 <img src={rps800} width='800' height='860' alt='Rock, paper, scissors' className='portfolio__img'></img>

@@ -20,9 +20,9 @@ import {
 const About = () => {
   return (
     <div className='about'>
-      <Container className='p-4'>
+      <Container>
         <Row className='about__row about__row--text'>
-          <Col sm={12} className='p-2'>
+          <Col sm={12} className='about__text-col'>
             <p>
               My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
             </p>
@@ -53,27 +53,27 @@ const About = () => {
             Languages and libraries
             </h5>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faHtml5} className='about__icon' />
             <span className='about__icon-name'>HTML</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faCss3Alt} className='about__icon' />
             <span className='about__icon-name'>CSS</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faSass} className='about__icon' />
             <span className='about__icon-name'>Sass</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faJs} className='about__icon' />
             <span className='about__icon-name'>JavaScript</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faReact} className='about__icon' />
             <span className='about__icon-name'>React</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faBootstrap} className='about__icon' />
             <span className='about__icon-name'>Bootstrap</span>
           </Col>
@@ -84,27 +84,27 @@ const About = () => {
             Tools
             </h5>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faGitAlt} className='about__icon' />
             <span className='about__icon-name'>Git</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faNpm} className='about__icon' />
             <span className='about__icon-name'>npm</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faYarn} className='about__icon' />
             <span className='about__icon-name'>Yarn</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faJira} className='about__icon' />
             <span className='about__icon-name'>Jira</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faSlack} className='about__icon' />
             <span className='about__icon-name'>Slack</span>
           </Col>
-          <Col sm={12} md={4} className='p-4 about__icon-col'>
+          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faFileImage} className='about__icon' />
             <span className='about__icon-name'>CorelDRAW, Inkscape</span>
           </Col>

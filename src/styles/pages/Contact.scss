@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .contact {
-  padding: 10px;
+  padding: 30px 0;
   @include desktop {
     padding: 50px;
   }
@@ -10,7 +10,6 @@
 /*Columns*/
 .contact__icon-col {
   padding: 25px;
-
   &:nth-child(even) {
     .contact__link {
       box-shadow: $boxshadow-right;

@@ -43,8 +43,8 @@ class Header extends Component {
 
     return (
       <header className='header'>
-        <Container className='p-0 m-0' fluid>
-          <Row className='p-0 m-0'>
+        <Container fluid>
+          <Row>
             <Col xs={9} sm={8} md={5} lg={4} className='d-block p-0'>
               <div className='header__name-div'>
                 <h2 className='header__name'>Monika Wieczorek</h2>
