@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
-import portfolio_800 from '../images/portfolio_800.png';
+import portfolio_800 from '../images/portfolio_800(4).png';
 import admin800 from '../images/admin_800.png';
 import todolist800 from '../images/todolist_800.png';
 import rps800 from '../images/rps_800.png';
@@ -22,7 +22,15 @@ const Portfolio = () => {
                 </h5>
                 <p className='portfolio__description'>
                   My portfolio webpage built in React. Optimization was based on the Lighthouse report.
-                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>React</span> - <span className='portfolio__bold'>React Router</span> - <span className='portfolio__bold'>React Bootstrap</span> - <span className='portfolio__bold'>CRA</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>Yarn</span>
+                  <span className='portfolio__bold'> Tech stack</span>:
+                  <span className='portfolio__bold'> React</span> -
+                  <span className='portfolio__bold'> React Router</span> -
+                  <span className='portfolio__bold'> React Bootstrap</span> -
+                  <span className='portfolio__bold'> CRA</span> -
+                  <span className='portfolio__bold'> HTML</span> -
+                  <span className='portfolio__bold'> Sass/SCSS</span> -
+                  <span className='portfolio__bold'> code review tools</span> -
+                  <span className='portfolio__bold'> Yarn</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -54,19 +62,24 @@ const Portfolio = () => {
                 </h5>
                 <p className='portfolio__description'>
                   My individual project based on the PSD templates provided during the Web Developer Bootcamp.
-                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>JavaScript</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>stylelint</span> - <span className='portfolio__bold'>npm</span>
+                  <span className='portfolio__bold'> Tech stack</span>:
+                  <span className='portfolio__bold'> HTML</span> -
+                  <span className='portfolio__bold'> Sass/SCSS</span> -
+                  <span className='portfolio__bold'> JavaScript</span> -
+                  <span className='portfolio__bold'> code review tools</span> -
+                  <span className='portfolio__bold'> npm</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
                 <a
-                  href='http'
+                  href='https://wiemon.github.io/admin-project/'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
                   demo
                 </a>
                 <a
-                  href='http'
+                  href='https'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -87,13 +100,20 @@ const Portfolio = () => {
                   To-do list
                 </h5>
                 <p className='portfolio__description'>
-                  The task list built in React. The to-dos can be flagged as important and due dates selected manually.
-                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>React</span> - <span className='portfolio__bold'>CRA</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>Yarn</span>
+                  The task list built in React using CRA with modified configurations. The to-dos can be flagged as important and due dates can be manually selected.
+                  <span className='portfolio__bold'> Tech stack</span>:
+                  <span className='portfolio__bold'> React</span> -
+                  <span className='portfolio__bold'> CRA</span> -
+                  <span className='portfolio__bold'> JavaScript</span> -
+                  <span className='portfolio__bold'> HTML</span> -
+                  <span className='portfolio__bold'> Sass/SCSS</span> -
+                  <span className='portfolio__bold'> code review tools</span> -
+                  <span className='portfolio__bold'> Yarn</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
                 <a
-                  href='http'
+                  href='https://wiemon.github.io/to-do-app-react/'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -119,13 +139,18 @@ const Portfolio = () => {
                   Rock, paper, scissors
                 </h5>
                 <p className='portfolio__description'>
-                  My first game built in vanilla JavaScript. The player is asked to enter a name and choose up to 10 rounds.
-                  <span className='portfolio__bold'> Tech stack</span>: <span className='portfolio__bold'>JavaScript</span> - <span className='portfolio__bold'>HTML</span> - <span className='portfolio__bold'>Sass/SCSS</span> - <span className='portfolio__bold'>ESLint</span> - <span className='portfolio__bold'>EditorConfig</span> - <span className='portfolio__bold'>npm</span>
+                This game was built in vanilla JavaScript following the procedural programming paradigm. Player is asked to enter a name and choose up to 10 rounds.
+                  <span className='portfolio__bold'> Tech stack</span>:
+                  <span className='portfolio__bold'> JavaScript</span> -
+                  <span className='portfolio__bold'> HTML</span> -
+                  <span className='portfolio__bold'> Sass/SCSS</span> -
+                  <span className='portfolio__bold'> code review tools</span> -
+                  <span className='portfolio__bold'> npm</span>
                 </p>
               </div>
               <div className='portfolio__link-div'>
                 <a
-                  href='http'
+                  href='https://wiemon.github.io/rock-paper-scissors-pp-js/'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -136,7 +161,7 @@ const Portfolio = () => {
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
-                  link
+                  code
                 </a>
               </div>
             </div>
