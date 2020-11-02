@@ -21,16 +21,9 @@ const Portfolio = () => {
                   Portfolio
                 </h5>
                 <p className='portfolio__description'>
-                  My portfolio webpage built in React. Optimization was based on the Lighthouse report.
+                  My portfolio webpage built in React with React Bootstrap used for responsive layout. Optimization was based on the Lighthouse report.
                   <span className='portfolio__bold'> Tech stack</span>:
-                  <span className='portfolio__bold'> React</span> -
-                  <span className='portfolio__bold'> React Router</span> -
-                  <span className='portfolio__bold'> React Bootstrap</span> -
-                  <span className='portfolio__bold'> CRA</span> -
-                  <span className='portfolio__bold'> HTML</span> -
-                  <span className='portfolio__bold'> Sass/SCSS</span> -
-                  <span className='portfolio__bold'> code review tools</span> -
-                  <span className='portfolio__bold'> Yarn</span>
+                   React - React Router - React Bootstrap - HTML - Sass/SCSS - code review tools - Yarn
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -61,13 +54,9 @@ const Portfolio = () => {
                   Administration panel
                 </h5>
                 <p className='portfolio__description'>
-                  My individual project based on the PSD templates provided during the Web Developer Bootcamp.
+                  This project was based on the PSD templates provided during the Web Developer Bootcamp. It uses Chart.js, Glyphter and Font Awesome.
                   <span className='portfolio__bold'> Tech stack</span>:
-                  <span className='portfolio__bold'> HTML</span> -
-                  <span className='portfolio__bold'> Sass/SCSS</span> -
-                  <span className='portfolio__bold'> JavaScript</span> -
-                  <span className='portfolio__bold'> code review tools</span> -
-                  <span className='portfolio__bold'> npm</span>
+                   HTML - Sass/SCSS - JavaScript - code review tools - npm
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -100,15 +89,9 @@ const Portfolio = () => {
                   To-do list
                 </h5>
                 <p className='portfolio__description'>
-                  The task list built in React using CRA with modified configurations. The to-dos can be flagged as important and due dates can be manually selected.
+                  The task list built in React using CRA with modified configurations. The to-dos can be flagged as important and due dates manually selected.
                   <span className='portfolio__bold'> Tech stack</span>:
-                  <span className='portfolio__bold'> React</span> -
-                  <span className='portfolio__bold'> CRA</span> -
-                  <span className='portfolio__bold'> JavaScript</span> -
-                  <span className='portfolio__bold'> HTML</span> -
-                  <span className='portfolio__bold'> Sass/SCSS</span> -
-                  <span className='portfolio__bold'> code review tools</span> -
-                  <span className='portfolio__bold'> Yarn</span>
+                   React - JavaScript - HTML - Sass/SCSS - code review tools - Yarn
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -141,11 +124,7 @@ const Portfolio = () => {
                 <p className='portfolio__description'>
                 This game was built in vanilla JavaScript following the procedural programming paradigm. Player is asked to enter a name and choose up to 10 rounds.
                   <span className='portfolio__bold'> Tech stack</span>:
-                  <span className='portfolio__bold'> JavaScript</span> -
-                  <span className='portfolio__bold'> HTML</span> -
-                  <span className='portfolio__bold'> Sass/SCSS</span> -
-                  <span className='portfolio__bold'> code review tools</span> -
-                  <span className='portfolio__bold'> npm</span>
+                  JavaScript - HTML - Sass/SCSS - code review tools - npm
                 </p>
               </div>
               <div className='portfolio__link-div'>
