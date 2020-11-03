@@ -1,11 +1,38 @@
-#
+# portfolio
 
 ## Description:
+My portfolio webpage built in React with React Bootstrap used for responsive layout. Optimization was based on the Lighthouse report.
+
+[DEMO]()
 
 ## Technologies:
-- React:
-- ReactDOM:
-- react router DOM:
+- React: 16.13.1
+- ReactDOM: 16.3.1
+- React Router DOM: 5.2.0
+- react-scripts: 3.4.3
+- React Test Renderer: 16.13.1
+- React Bootstrap: 1.3.0
+- JavaScript
+- Sass/SCSS: BEM
+- HTML5
+- Node.js: 10.17.0
+- node-sass: 4.14.1
+- types/jest: 26.0.14
+- types/node: 14.11.1
+- types/react: 16.9.49
+- types/react-dom: 16.9.8
+- Enzyme: 3.11.0
+- enzyme-adapter-react-16: 1.15.4
+- EditorConfig: 0.15.1 & `.editorconfig`
+- ESLint from react-scripts modified: see `.eslintrc`
+- Husky: 4.3.0
+- lint-staged: 10.4.0
+- npm-run-all: 4.1.5
+- Yarn: 1.22.4
+- Git: 2.24.0
+- google fonts: open sans & architects+daughter
+- font awesome: 5.9.0
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
