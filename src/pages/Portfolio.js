@@ -35,7 +35,7 @@ const Portfolio = () => {
                   demo
                 </a>
                 <a
-                  href='http'
+                  href='https://github.com/WieMon/portfolio'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                   demo
                 </a>
                 <a
-                  href='https'
+                  href='https://github.com/WieMon/admin-project'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -103,7 +103,7 @@ const Portfolio = () => {
                   demo
                 </a>
                 <a
-                  href='http'
+                  href='https://github.com/WieMon/to-do-app-react'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
@@ -136,7 +136,7 @@ const Portfolio = () => {
                   demo
                 </a>
                 <a
-                  href='http'
+                  href='https://github.com/WieMon/rock-paper-scissors-pp-js'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
