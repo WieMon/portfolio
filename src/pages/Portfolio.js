@@ -28,7 +28,7 @@ const Portfolio = () => {
               </div>
               <div className='portfolio__link-div'>
                 <a
-                  href='http'
+                  href='https://wiemon.github.io/portfolio/'
                   className='portfolio__link'
                   rel='noopener noreferrer'
                   target='_blank'>
