@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import { Switch, Route} from 'react-router-dom';
-//import { Container, Row, Col } from 'react-bootstrap';
-import Portfolio from '../pages/Portfolio';
 import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Error from '../pages/Error';
 import '../styles/layout/Main.scss';
+
+const Portfolio = lazy(() => import('../pages/Portfolio'));
+const Contact = lazy(() => import('../pages/Contact'));
 
 class Main extends Component {
   state = {}
   render() {
     return (
       <Switch>
-        <Route path='/' exact component={About} />
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/contact' component={Contact} />
-        <Route component={Error} />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Route path='/' exact component={About} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/contact' component={Contact} />
+        </Suspense>
       </Switch>
     );
   }
