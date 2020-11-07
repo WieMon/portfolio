@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
-import portfolio_800 from '../images/portfolio_800(4).png';
-import admin800 from '../images/admin_800.png';
-import todolist800 from '../images/todolist_800.png';
-import rps800 from '../images/rps_800.png';
+import portfolio from '../images/portfolio.png';
+import admin from '../images/admin.png';
+import todolist from '../images/todolist.png';
+import rps from '../images/rps.png';
 
 const Portfolio = () => {
   return (
@@ -14,7 +14,7 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--left'>
               <div className='portfolio__img-div'>
-                <img src={portfolio_800} width='800' height='860' alt='portfolio' className='portfolio__img'></img>
+                <img src={portfolio} width='800' height='860' alt='portfolio' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--right'>
               <div className='portfolio__img-div'>
-                <img src={admin800} width='800' height='860' alt='' className='portfolio__img'></img>
+                <img src={admin} width='800' height='860' alt='' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
@@ -82,7 +82,7 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--left'>
               <div className='portfolio__img-div'>
-                <img src={todolist800} width='800' height='860' alt='To-Do List' className='portfolio__img'></img>
+                <img src={todolist} width='800' height='860' alt='To-Do List' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5>
@@ -115,7 +115,7 @@ const Portfolio = () => {
           <Col sm={12} md={6} className='portfolio__col'>
             <div className='portfolio__wrapper portfolio__wrapper--right'>
               <div className='portfolio__img-div'>
-                <img src={rps800} width='800' height='860' alt='Rock, paper, scissors' className='portfolio__img'></img>
+                <img src={rps} width='800' height='860' alt='Rock, paper, scissors' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
