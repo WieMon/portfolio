@@ -22,27 +22,33 @@ const About = () => {
     <div className='about'>
       <Container>
         <Row className='about__row about__row--text'>
+          <Col sm={12} className='about__title-col'>
+            <h5 className='about__title about__title--welcome'>
+              Welcome...
+            </h5>
+          </Col>
           <Col sm={12} className='about__text-col'>
             <p>
               My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
             </p>
             <p>
-              My first experience with programming and visualization of complex data was during my PhD. I was using statistical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to show large datasets as audience-friendly presentations.
+              Since 2019 I have been learning the web development through a several-month long bootcamp (<span className='about__bold'>Kodilla Web Developer</span>), the online and face-to-face courses (<span className='about__bold'>Udemy</span>, <span className='about__bold'>Stacja IT</span>), and on my own.
             </p>
             <p>
-              Then, I started working in fast-paced environment of large corporations. Ever since then effective multitasking and cross-cultural communication in <span className='about__bold'>English</span> and, occasionally, <span className='about__bold'>German</span> became my daily routine.
+              Before that, I had modelled in the <span className='about__bold'>R language for statistical computing </span>during my PhD project.
+              I also used graphical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to present the complex data in audience-friendly ways.
+            </p>
+            <p>
+              After my PhD, I worked in fast-paced environment of large corporations. Ever since then effective multitasking and cross-cultural communication in <span className='about__bold'>English</span> and, occasionally, in <span className='about__bold'>German</span> became my daily routine.
             </p>
             <p>
               However, I am passionate about learning, analyzing and solving problems. Thus, I decided to look for another possibility for my job that would allow me to combine my desire to continuous development and the experience I have got so far.
-            </p>
-            <p>
-              Therefore, at the beginning of 2019 I have started learning web development through a several-month long bootcamp (<span className='about__bold'>Kodilla Web Developer</span>), the online and face-to-face courses (<span className='about__bold'>Udemy</span>, <span className='about__bold'>Stacja IT</span>, <span className='about__bold'>MDN</span>), and on my own.
             </p>
           </Col>
         </Row>
         <Row>
           <Col xl={12} className='about__title-col'>
-            <h5 className='about__title'>
+            <h5 className='about__title about__title--skills'>
             My skills so far ...
             </h5>
           </Col>

@@ -49,6 +49,7 @@
 /*Introduction section*/
 .about__bold {
   font-weight: $font-bold;
+  text-shadow: 1px 1px $color-yellow;
 }
 
 .about__text-col {
@@ -62,13 +63,22 @@
 
 .about__title {
   position: absolute;
-  top: -23px;
-  right: 6px;
-  font-size: 24px;
   font-weight: 700;
   font-family: $font-one;
   color: $color-yellow;
   text-shadow: 2px 2px 2px $color-brown;
+}
+
+.about__title--welcome {
+  top: -25px;
+  left: -20px;
+  font-size: 24px;
+}
+
+.about__title--skills{
+  top: -23px;
+  right: 6px;
+  font-size: 24px;
 }
 
 .about__subtitle {
@@ -102,4 +112,3 @@
   border-radius: $radius-big;
   box-shadow: $boxshadow-icon;
 }
-
