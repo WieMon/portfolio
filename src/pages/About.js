@@ -54,10 +54,13 @@ const About = () => {
           </Col>
         </Row>
         <Row className='about__row about__row--skills'>
-          <Col xl={12}>
-            <h5 className='about__subtitle'>
-            Languages and libraries
-            </h5>
+          <Col sm={12} md={4} className='about__icon-col'>
+            <FontAwesomeIcon icon={faReact} className='about__icon' />
+            <span className='about__icon-name'>React</span>
+          </Col>
+          <Col sm={12} md={4} className='about__icon-col'>
+            <FontAwesomeIcon icon={faJs} className='about__icon' />
+            <span className='about__icon-name'>JavaScript</span>
           </Col>
           <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faHtml5} className='about__icon' />
@@ -72,23 +75,8 @@ const About = () => {
             <span className='about__icon-name'>Sass</span>
           </Col>
           <Col sm={12} md={4} className='about__icon-col'>
-            <FontAwesomeIcon icon={faJs} className='about__icon' />
-            <span className='about__icon-name'>JavaScript</span>
-          </Col>
-          <Col sm={12} md={4} className='about__icon-col'>
-            <FontAwesomeIcon icon={faReact} className='about__icon' />
-            <span className='about__icon-name'>React</span>
-          </Col>
-          <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faBootstrap} className='about__icon' />
             <span className='about__icon-name'>Bootstrap</span>
-          </Col>
-        </Row>
-        <Row className='about__row about__row--skills'>
-          <Col xl={12}>
-            <h5 className='about__subtitle'>
-            Tools
-            </h5>
           </Col>
           <Col sm={12} md={4} className='about__icon-col'>
             <FontAwesomeIcon icon={faGitAlt} className='about__icon' />
