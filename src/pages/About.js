@@ -32,10 +32,10 @@ const About = () => {
               My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
             </p>
             <p>
-              Since 2019 I have been learning the web development through a several-month long bootcamp (<span className='about__bold'>Kodilla Web Developer</span>), the online and face-to-face courses (<span className='about__bold'>Udemy</span>, <span className='about__bold'>Stacja IT</span>), and on my own.
+              Since 2019 I have been learning the web development through a several-month long bootcamp <span className='about__bold'>(Kodilla Web Developer)</span>, the online and face-to-face courses <span className='about__bold'>(Udemy, Stacja IT)</span>, and on my own.
             </p>
             <p>
-              Before that, I had modelled in the <span className='about__bold'>R language for statistical computing </span>during my PhD project.
+              Before that, I had modelled in <span className='about__bold'>the R language for statistical computing </span>during my PhD project.
               I also used graphical packages of <span className='about__bold'>R</span> and <span className='about__bold'>CorelDraw</span> to present the complex data in audience-friendly ways.
             </p>
             <p>

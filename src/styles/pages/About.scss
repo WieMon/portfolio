@@ -45,11 +45,20 @@
   }
 }
 
-
 /*Introduction section*/
 .about__bold {
+  color: $color-yellow;
   font-weight: $font-bold;
-  text-shadow: 1px 1px $color-yellow;
+  text-shadow:
+  2px 0 0px darken($color-hover, 50%),
+  3px 2px 0px darken($color-brown, 0%),
+  4px 0 3px darken($color-hover, 20%),
+  3px 2px 3px darken($color-hover, 40%),
+  3px 0 9px darken($color-yellow, 20%),
+  2px 0 9px darken($color-hover, 30%),
+  -2px 2px 9px darken($color-brown, 0%),
+  2px 0 18px $color-yellow,
+  -2px 0 18px $color-brown,
 }
 
 .about__text-col {
