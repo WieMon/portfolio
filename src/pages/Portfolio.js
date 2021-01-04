@@ -22,9 +22,9 @@ const Portfolio = () => {
                   Ice cream shop
                 </h5>
                 <p className='portfolio__description'>
-                I built this web application to practice Vue. It has been integrated with the Firebase authentication and database.
+                I built this web application to practice Vue. It is integrated with the Firebase authentication and database.
                   <span className='portfolio__bold'> Tech stack</span>:
-                   Vue.js - Vuex - Vue Resource - Vue Router - HTML - Sass/SCSS - JavaScript - Yarn
+                   Vue.js - Vuex - Vue Resource - Vue Router - Vuetify - Vue Material - HTML - Sass/SCSS - JavaScript - Yarn
                 </p>
               </div>
               <div className='portfolio__link-div'>
