@@ -1,7 +1,7 @@
 # portfolio
 
 ## Description:
-My portfolio webpage built in React with React Bootstrap used for responsive layout. Optimization was based on the Lighthouse report.
+My portfolio website built in React with React Bootstrap used for responsive layout. Optimization was based on the Lighthouse report.
 
 [DEMO](https://wiemon.github.io/portfolio/)
 

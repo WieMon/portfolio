@@ -22,7 +22,7 @@ const Portfolio = () => {
                   Ice cream shop
                 </h5>
                 <p className='portfolio__description'>
-                I built this web application to practice Vue.js. It has been integrated with the Firebase authentication and database.
+                I built this web application to practice Vue. It has been integrated with the Firebase authentication and database.
                   <span className='portfolio__bold'> Tech stack</span>:
                    Vue.js - Vuex - Vue Resource - Vue Router - HTML - Sass/SCSS - JavaScript - Yarn
                 </p>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 <p className='portfolio__description'>
                   My portfolio webpage built in React with React Bootstrap used for responsive layout. Optimization was based on the Lighthouse report.
                   <span className='portfolio__bold'> Tech stack</span>:
-                   React - React Router - React Bootstrap - HTML - Sass/SCSS - code review tools - Yarn
+                   React - React Router - React Bootstrap - HTML - Sass/SCSS - JavaScript - Yarn
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 <p className='portfolio__description'>
                   This project was based on the PSD templates provided during the Web Developer Bootcamp. It uses Chart.js, Glyphter and Font Awesome.
                   <span className='portfolio__bold'> Tech stack</span>:
-                   HTML - Sass/SCSS - JavaScript - code review tools - npm
+                   HTML - Sass/SCSS - JavaScript - npm
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -125,7 +125,7 @@ const Portfolio = () => {
                 <p className='portfolio__description'>
                   The task list built in React using CRA with modified configurations. The to-dos can be flagged as important and due dates manually selected.
                   <span className='portfolio__bold'> Tech stack</span>:
-                   React - JavaScript - HTML - Sass/SCSS - code review tools - Yarn
+                   React - HTML - Sass/SCSS - JavaScript - Yarn
                 </p>
               </div>
               <div className='portfolio__link-div'>
@@ -160,7 +160,7 @@ const Portfolio = () => {
                 <p className='portfolio__description'>
                 This game was built in vanilla JavaScript following the procedural programming paradigm. Player is asked to enter a name and choose up to 10 rounds.
                   <span className='portfolio__bold'> Tech stack</span>:
-                  JavaScript - HTML - Sass/SCSS - code review tools - npm
+                   HTML - Sass/SCSS - JavaScript - npm
                 </p>
               </div>
               <div className='portfolio__link-div'>
