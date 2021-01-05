@@ -34,7 +34,7 @@ const Contact = () => {
         <Row>
           <Col sm={12} md={6} className='contact__icon-col'>
             <a
-              href='https://drive.google.com/file/d/15qnDXQQulp98koD-X1qrh--MbDK_EI2N/view?usp=sharing'
+              href='https://drive.google.com/file/d/1VzFolpUdne9fT9_ltCaItsjrWUGpZdL0/view?usp=sharing'
               className='contact__link'
               rel='noopener noreferrer'
               target='_blank'>
