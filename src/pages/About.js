@@ -31,7 +31,7 @@ const About = () => {
           </Col>
           <Col sm={12} className='about__text-col'>
             <p>
-              My name is Monika and I am looking for a position of <span className='about__bold'>junior front-end developer</span>.
+              My name is Monika and I am looking for a position of <span className='about__bold'>junior web developer</span>.
             </p>
             <p>
               My first experience with programming was during my PhD when I was building statistical models using <span className='about__bold'>the R language for statistical computing </span> to analyse data.

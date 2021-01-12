@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/pages/Portfolio.scss';
+import yummy from '../images/yummy-ice-cream.png';
 import portfolio from '../images/portfolio.png';
 import admin from '../images/admin.png';
 import todolist from '../images/todolist.png';
 import rps from '../images/rps.png';
-import yummy from '../images/yummy-ice-cream.png';
+import tempconverter from '../images/tempconverter.png';
 
 const Portfolio = () => {
   return (
@@ -182,13 +183,35 @@ const Portfolio = () => {
             </div>
           </Col>
           <Col sm={12} md={6} className='portfolio__col'>
-            <div className='portfolio__wrapper portfolio__wrapper--right portfolio__wrapper--prepare'>
+            <div className='portfolio__wrapper portfolio__wrapper--right'>
               <div className='portfolio__img-div'>
+                <img src={tempconverter} width='800' height='860' alt='Rock, paper, scissors' className='portfolio__img'></img>
               </div>
               <div className='portfolio__description-div'>
                 <h5 className='portfolio__title'>
-                  A new project is currently being prepared...
+                  Rock, paper, scissors
                 </h5>
+                <p className='portfolio__description'>
+                This is a simple temperature converter for Celsius (°C), Fahrenheit (°F) and Kelvin (°K). It was built in vanilla JavaScript.
+                  <span className='portfolio__bold'> Tech stack</span>:
+                   HTML - Sass/SCSS - JavaScript - npm
+                </p>
+              </div>
+              <div className='portfolio__link-div'>
+                <a
+                  href='https://wiemon.github.io/temperature-converter/'
+                  className='portfolio__link'
+                  rel='noopener noreferrer'
+                  target='_blank'>
+                  demo
+                </a>
+                <a
+                  href='https://github.com/WieMon/temperature-converter'
+                  className='portfolio__link'
+                  rel='noopener noreferrer'
+                  target='_blank'>
+                  code
+                </a>
               </div>
             </div>
           </Col>
